@@ -162,7 +162,7 @@
     <Content Include="SQLscriptd\SP_actualizarBeneficiario.sql" />
     <Content Include="SQLscriptd\SP_insertarBeneficiario.sql" />
     <Content Include="SQLscriptd\SP_selectBeneficiarios.sql" />
-    <Content Include="SQLscriptd\SQLQuery1.sql" />
+    <Content Include="SQLscriptd\scriptSimulacion.sql" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />

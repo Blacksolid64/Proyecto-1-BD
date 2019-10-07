@@ -1,3 +1,4 @@
+set nocount on;
 declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <xml>
    <Simulacion>
@@ -333,7 +334,6 @@ begin
             tablaTemp.value('(descripcion/text())[1]','nvarchar(200)')as descripcion,
             tablaTemp.value('(monto/text())[1]','money')as monto
         from @info.nodes('((xml/Simulacion/FechaOperacion[@fecha= sql:variable("@fechaItera") ])[1]/Movimiento)') as TEMPTABLE(tablaTemp)
-	print 'Éxito parcial'
 	begin transaction Juliana
 	insert into Persona(identificacion,email,telefono,idTipoIdent,nombre,fechaNac) 
 		select p.identificacion,p.email,p.telefono,p.idTipoIdent,p.nombre,p.fechaNac 

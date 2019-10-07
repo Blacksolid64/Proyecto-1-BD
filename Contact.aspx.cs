@@ -12,8 +12,8 @@ namespace WebApplication4
 {
     public partial class Contact : Page
     {
-        private String connectionString = @"Data Source=HORCHATÁSTICO;Initial Catalog=Banco;Integrated Security=True";
-        //private String connectionString = @"Data Source=ZLAPTOP22;Initial Catalog=Base_de_Datos_1;Integrated Security=True";// Cambiado para mi base de datos xd
+        //private String connectionString = @"Data Source=HORCHATÁSTICO;Initial Catalog=Banco;Integrated Security=True";
+        private String connectionString = @"Data Source=ZLAPTOP22;Initial Catalog=Base_de_Datos_1;Integrated Security=True";// Cambiado para mi base de datos xd
         protected void Page_Load(object sender, EventArgs e)
         {
             if (IsPostBack) return;
@@ -38,7 +38,8 @@ namespace WebApplication4
                         SqlDataSource1.InsertParameters.Remove(SqlDataSource1.InsertParameters["idCuenta"]);
                     }
                     catch { }
-                    SqlDataSource1.InsertParameters.Add("idCuenta", Session["CuentaID"].ToString());
+                    object kk = Session["CuentaID"];
+                    SqlDataSource1.InsertParameters.Add("idCuenta",kk.ToString());
                     String[] nombres = { "nombre", "ced", "email", "porcentajeBeneficio", "telefono", "fechaNac" };
                     for (int i = 0; i < nombres.Length; i++)
                     {
@@ -73,64 +74,67 @@ namespace WebApplication4
         {
             e.Cancel = true;
             TextBox t;
-            try
+            t = (GridView1.Rows[e.RowIndex].FindControl("TextBox4") as TextBox);
+            if (Int32.Parse(t.Text) <= 0 || Int32.Parse(t.Text) > 100)
             {
-                t = (GridView1.Rows[e.RowIndex].FindControl("TextBox4") as TextBox);
-                if (Int32.Parse(t.Text) <= 0 || Int32.Parse(t.Text) > 100)
-                {
-                    ClientScript.RegisterStartupScript(GetType(),"hwa","alert('El porcentaje de beneficio debe ser un porcentaje válido. ]0,100]')",true);
+                ClientScript.RegisterStartupScript(GetType(),"hwa","alert('El porcentaje de beneficio debe ser un porcentaje válido. ]0,100]')",true);
                     
-                }
-                using (SqlConnection conn = new SqlConnection(connectionString))
-                {
-                    SqlCommand command = new SqlCommand("SP_actualizarBeneficiario",conn);
-                    command.CommandType = CommandType.StoredProcedure;
-                    command.Parameters.AddWithValue("id", (GridView1.Rows[e.RowIndex].FindControl("idEdit") as Label).Text);
-                    String[] nombres = { "nombre", "ced", "email", "porcentajeBeneficio", "telefono", "fechaNac" };
-                    for (int i = 0; i < nombres.Length; i++)
-                    {
-                        t = (GridView1.Rows[e.RowIndex].FindControl("TextBox" + (i + 1)) as TextBox);
-                        if (t.Text != "")
-                            command.Parameters.AddWithValue(nombres[i], t.Text.Trim());
-                        else
-                        {
-                            if (i >= 3) i += 1;
-                            ClientScript.RegisterStartupScript(GetType(),"hwa","alert('Debe llenar todos los campos, el campo de " + GridView1.Columns[i + 2].HeaderText.ToLower() + " está vacío.')",true);
-                            return;
-                        }
-                    }
-                    command.Parameters.AddWithValue("idParentesco", (GridView1.Rows[e.RowIndex].FindControl("DropDownList1") as DropDownList).SelectedValue);
-                    command.Parameters.AddWithValue("idCuenta", Session["CuentaID"]);
-
-                    SqlParameter p = new SqlParameter("@ReturnValue",SqlDbType.Int);
-                    p.Direction = ParameterDirection.ReturnValue;
-                    command.Parameters.Add(p);
-                    conn.Open();
-                    command.ExecuteScalar();
-                    object result = p.Value;
-                    
-                    if (Convert.ToInt32(result) == 0)
-                    {
-                        GridView1.DataBind();
-                        GridView1.EditIndex = -1;
-                        ClientScript.RegisterStartupScript(GetType(),"hwa","alert('Se ha actualizado exitosamente')",true);
-                        actualizarRotulitoLlamativo();
-                    }
-                    else
-                        ClientScript.RegisterStartupScript(GetType(),"hwa","alert('La suma de los porcentajes sobrepasa el 100')",true);
-                    command.Dispose();
-                }
             }
-            catch (Exception ex)
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                ClientScript.RegisterStartupScript(GetType(),"hwa","alert('" + ex.Message + "')",true);
+                SqlCommand command = new SqlCommand("SP_actualizarBeneficiario",conn);
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.AddWithValue("id", (GridView1.Rows[e.RowIndex].FindControl("idEdit") as Label).Text);
+                String[] nombres = { "nombre", "ced", "email", "porcentajeBeneficio", "telefono", "fechaNac" };
+                for (int i = 0; i < nombres.Length; i++)
+                {
+                    t = (GridView1.Rows[e.RowIndex].FindControl("TextBox" + (i + 1)) as TextBox);
+                    if (t.Text != "")
+                        command.Parameters.AddWithValue(nombres[i], t.Text.Trim());
+                    else
+                    {
+                        if (i >= 3) i += 1;
+                        ClientScript.RegisterStartupScript(GetType(),"hwa","alert('Debe llenar todos los campos, el campo de " + GridView1.Columns[i + 2].HeaderText.ToLower() + " está vacío.')",true);
+                        return;
+                    }
+                }
+                command.Parameters.AddWithValue("idParentesco", (GridView1.Rows[e.RowIndex].FindControl("DropDownList1") as DropDownList).SelectedValue);
+                command.Parameters.AddWithValue("idCuenta", Session["CuentaID"]);
+                SqlParameter p = new SqlParameter("@ReturnValue",SqlDbType.Int);
+                p.Direction = ParameterDirection.ReturnValue;
+                command.Parameters.Add(p);
+                conn.Open();
+                command.ExecuteScalar();
+                object result = p.Value;
+                    
+                if (Convert.ToInt32(result) == 0)
+                {
+                    GridView1.DataBind();
+                    GridView1.EditIndex = -1;
+                    ClientScript.RegisterStartupScript(GetType(),"hwa","alert('Se ha actualizado exitosamente')",true);
+                    actualizarRotulitoLlamativo();
+                }
+                else
+                    ClientScript.RegisterStartupScript(GetType(),"hwa","alert('La suma de los porcentajes sobrepasa el 100')",true);
+                command.Dispose();
             }
         }
 
         protected void GridView1_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
-            SqlDataSource1.DeleteParameters.Clear();
-            SqlDataSource1.DeleteParameters.Add("id", (GridView1.Rows[e.RowIndex].FindControl("idDelete") as Label).Text);
+            e.Cancel = true;
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                SqlCommand command = new SqlCommand("SP_borrarBeneficiario", conn);
+                command.Parameters.AddWithValue("@id", (GridView1.Rows[e.RowIndex].FindControl("idDelete") as Label).Text);
+                command.CommandType = CommandType.StoredProcedure;
+                command.ExecuteNonQuery();
+                command.Dispose();
+                GridView1.DataBind();
+                actualizarRotulitoLlamativo();
+                ClientScript.RegisterStartupScript(GetType(), "hwa", "alert('Se ha eliminado exitosamente')", true);
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)

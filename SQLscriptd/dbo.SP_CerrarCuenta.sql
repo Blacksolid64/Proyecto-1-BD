@@ -1,21 +1,23 @@
-﻿CREATE procedure [dbo].SP_CerrarCuenta
-	@idEstadoDeCuenta int,
-	@fechaCierre date
+﻿-- =============================================
+-- Author:		Esteban Cruz
+-- Create date: 04/10/2019
+-- Description:	Evalúa cuál es el último estado de cuenta asociado a una cuenta y si debe cerrarse el estado de cuenta
+-- =============================================
+CREATE PROCEDURE SP_getLastIdEstadoDeCuenta 
+	@idCuenta int,@fechaOperacion date
 AS
 BEGIN
-	declare @saldoMinimoEDC money,@idCuenta int,@multaSM int,@saldoMinimoTC money,@idTipoCuenta int,@fechaInicio date,@saldoFinal money,@QRCH int,@Max_QRCH int,@multaExcesoRCH money,@montoCargosXSM money
-	select @saldoMinimoEDC=saldoMinimo,@idCuenta=idCuenta,@fechaInicio=fechaInicio,@QRCH=QRCH from EstadoDeCuenta where id=@idEstadoDeCuenta
-	select @idTipoCuenta=idTipoCuenta from CuentaAhorro where id=@idCuenta
-	select @saldoMinimoTC=t.saldoMinimo,@multaSM=t.multaSaldoMinimo,@Max_QRCH=t.maxRetiroEnCajeros, @montoCargosXSM=t.montoMensual from TipoCuenta t where t.id=@idTipoCuenta
-	if @saldoMinimoEDC<@saldoMinimoTC 
-		exec dbo.SP_procesarMovimiento @multaSM,@idCuenta,@fechaCierre,'Multa por incumplimiento de saldo mínimo',11,@idEstadoDeCuenta
-	if @QRCH>@Max_QRCH
-		exec dbo.SP_procesarMovimiento @multaExcesoRCH,@idCuenta,@fechaCierre,'Multa por exceso de retiros en cajero humano',5,@idEstadoDeCuenta
-	exec dbo.SP_procesarMovimiento @montoCargosXSM,@idCuenta,@fechaCierre,'Cargos por servicio mensual',6,@idEstadoDeCuenta
-	set @saldoFinal=(select top 1 saldo from CuentaAhorro where id=@idCuenta);
-	set @fechaInicio=DATEADD(month,1,@fechaInicio)
-	insert into EstadoDeCuenta ([fechaInicio],[saldoInicial],[saldoMinimo],[idCuenta])
-				values		   (@fechaInicio,@saldoFinal,@saldoFinal,@idCuenta);
-	update EstadoDeCuenta set fechaFinal=@fechaInicio,saldoFinal=@saldoFinal where id=@idEstadoDeCuenta			
-	return scope_identity()
+	DECLARE @idEstadoDeCuenta int,@fechaCierre date, @fechaInicio date,@idReal int
+	select @idReal=id from CuentaAhorro where numCuenta=@idCuenta
+	SELECT @idEstadoDeCuenta = max(e.id) 
+	from EstadoDeCuenta e where e.idCuenta=@idReal
+	select @fechaInicio=fechaInicio from EstadoDeCuenta where id=@idEstadoDeCuenta
+	set @fechaCierre=(select top 1 fechaCreacion from CuentaAhorro where numCuenta=@idCuenta)
+	declare @resta int
+	set @resta=datediff(month,@fechaOperacion,@fechaInicio)
+	if (day(@fechaOperacion)>=day(@fechaCierre) and @resta>0) or @resta>=2 begin
+		exec @idEstadoDeCuenta=dbo.SP_CerrarCuenta @idEstadoDeCuenta,@fechaOperacion
+	end
+	RETURN @idEstadoDeCuenta
+
 END
