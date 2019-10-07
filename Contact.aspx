@@ -8,14 +8,34 @@
     <h3>
         Beneficiarios 
         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SELECT [id], [nombre] FROM [Parentesco]"></asp:SqlDataSource>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="" ConflictDetection="OverwriteChanges" DeleteCommand="UPDATE [Beneficiario] SET [activo]=0, [fechaDesactivacion]=GETDATE() WHERE [id] = @id" InsertCommand="INSERT INTO [Beneficiario] ([idUsuario], [nombre], [ced], [email], [idParentesco], [porcentajeBeneficio], [telefono], [fechaNac],[activo]) VALUES (@idUsuario, @nombre, @ced, @email, @parentesco, @porcentajeBeneficio, @telefono, @fechaNac, 1) " OldValuesParameterFormatString="original_{0}" UpdateCommand="UPDATE [Beneficiario] SET [nombre] = @nombre, [ced] = @ced, [email] = @email, [idParentesco] = @idParentesco, [porcentajeBeneficio] = @porcentajeBeneficio, [telefono] = @telefono, [fechaNac] = @fechaNac WHERE [id] = @original_id" CancelSelectOnNullParameter="False">
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" OnInserted="SqlDataSource1_Inserted" OnDeleted="SqlDataSource1_Deleted" OnUpdated="SqlDataSource1_Updated" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SP_selectBeneficiarios" DeleteCommand="SP_borrarBeneficiario" InsertCommand="SP_insertarBeneficiario" UpdateCommand="SP_actualizarBeneficiario" CancelSelectOnNullParameter="False" DeleteCommandType="StoredProcedure" InsertCommandType="StoredProcedure" SelectCommandType="StoredProcedure" UpdateCommandType="StoredProcedure">
             <DeleteParameters>
                 <asp:Parameter Name="id" />
             </DeleteParameters>
+            <InsertParameters>
+                <asp:Parameter Direction="ReturnValue" Name="ReturnValue" />
+                <asp:Parameter Name="idCuenta" Type="Int32" />
+                <asp:Parameter Name="nombre" Type="String" />
+                <asp:Parameter Name="ced" Type="String" />
+                <asp:Parameter Name="email" Type="String" />
+                <asp:Parameter Name="parentesco" Type="String" />
+                <asp:Parameter Name="porcentajeBeneficio" Type="Int16" />
+                <asp:Parameter Name="telefono" Type="String" />
+                <asp:Parameter DbType="Date" Name="fechaNac" />
+            </InsertParameters>
             <SelectParameters>
-                <asp:SessionParameter Name="idUsuario" SessionField="CuentaID" />
+                <asp:SessionParameter Name="idCuenta" SessionField="CuentaID" DefaultValue="" Type="Int32" />
             </SelectParameters>
             <UpdateParameters>
+                <asp:Parameter Name="id" Type="Int32" />
+                <asp:Parameter Name="nombre" Type="String" />
+                <asp:Parameter Name="ced" Type="String" />
+                <asp:Parameter Name="email" Type="String" />
+                <asp:Parameter Name="porcentajeBeneficio" Type="Int16" />
+                <asp:Parameter Name="telefono" Type="String" />
+                <asp:Parameter DbType="Date" Name="fechaNac" />
+                <asp:Parameter Name="idParentesco" Type="Int32" />
+                <asp:Parameter Direction="ReturnValue" Name="ReturnValue" />
             </UpdateParameters>
         </asp:SqlDataSource>
         </h3>
@@ -28,19 +48,6 @@
         OnRowCommand="GridView1_RowCommand" OnRowUpdating="GridView1_RowUpdating">
         <%-- Theme Properties --%>
         <Columns>
-            <asp:TemplateField>
-                <ItemTemplate>
-                    <asp:ImageButton ID="UpdateButton" runat="server" CommandName="Edit" ImageUrl="~/Images/edit.png" Width="20px" Height="20px"/>
-                    <asp:ImageButton ID="DeleteButton" runat="server" CommandName="Delete" ImageUrl="~/Images/delete.png" Width="20px" Height="20px"/>
-                </ItemTemplate>
-                <EditItemTemplate>
-                    <asp:ImageButton ID="CancelButton" runat="server" CommandName="Cancel" ImageUrl="~/Images/cancel.png" Width="20px" Height="20px"/>
-                    <asp:ImageButton ID="SaveButton" runat="server" CommandName="Update" ImageUrl="~/Images/save.png" Width="20px" Height="20px"/>
-                </EditItemTemplate>
-                <FooterTemplate>
-                    <asp:ImageButton ID="InsertButton" runat="server" CommandName="AddNew" ImageUrl="~/Images/addnew.png" Width="20px" Height="20px"/>
-                </FooterTemplate>
-            </asp:TemplateField>
             <asp:TemplateField Visible="false">
                 <EditItemTemplate>
                     <asp:Label ID="idEdit" Text='<%#Bind("id") %>' runat="server"/>
@@ -127,6 +134,19 @@
                 <ItemTemplate>
                     <asp:Label ID="Label7" runat="server" Text='<%# Bind("fechaNac","{0:dd/MM/yyyy}") %>'></asp:Label>
                 </ItemTemplate>
+            </asp:TemplateField>
+            <asp:TemplateField>
+                <ItemTemplate>
+                    <asp:ImageButton ID="UpdateButton" runat="server" CommandName="Edit" ImageUrl="~/Images/edit.png" Width="20px" Height="20px"/>
+                    <asp:ImageButton ID="DeleteButton" runat="server" CommandName="Delete" ImageUrl="~/Images/delete.png" Width="20px" Height="20px"/>
+                </ItemTemplate>
+                <EditItemTemplate>
+                    <asp:ImageButton ID="CancelButton" runat="server" CommandName="Cancel" ImageUrl="~/Images/cancel.png" Width="20px" Height="20px"/>
+                    <asp:ImageButton ID="SaveButton" runat="server" CommandName="Update" ImageUrl="~/Images/save.png" Width="20px" Height="20px"/>
+                </EditItemTemplate>
+                <FooterTemplate>
+                    <asp:ImageButton ID="InsertButton" runat="server" CommandName="AddNew" ImageUrl="~/Images/addnew.png" Width="20px" Height="20px"/>
+                </FooterTemplate>
             </asp:TemplateField>
         </Columns>
         <FooterStyle BackColor="White" ForeColor="#000066" />
