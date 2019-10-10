@@ -7,7 +7,7 @@
     </h2>
     <h3>
         Beneficiarios 
-        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SELECT [id], [nombre] FROM [Parentesco]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SELECT [id], [nombre] FROM [Parentesco]" OnSelecting="SqlDataSource2_Selecting"></asp:SqlDataSource>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" OnInserted="SqlDataSource1_Inserted" OnDeleted="SqlDataSource1_Deleted" OnUpdated="SqlDataSource1_Updated" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SP_selectBeneficiarios" DeleteCommand="SP_borrarBeneficiario" InsertCommand="SP_insertarBeneficiario" UpdateCommand="SP_actualizarBeneficiario" CancelSelectOnNullParameter="False" DeleteCommandType="StoredProcedure" InsertCommandType="StoredProcedure" SelectCommandType="StoredProcedure" UpdateCommandType="StoredProcedure">
             <DeleteParameters>
                 <asp:Parameter Name="id" />
@@ -159,4 +159,5 @@
         <SortedDescendingHeaderStyle BackColor="#00547E" />
     </asp:GridView>
     <asp:Button ID="Button1" runat="server" Text="Ver estados de cuenta" OnClick="Button1_Click" />
+    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Editar cuenta objetivo" />
 </asp:Content>

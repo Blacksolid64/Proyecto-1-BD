@@ -10,7 +10,7 @@
             </asp:SqlDataSource>
         </h1>
 
-        <asp:ListView ID="ListView1" runat="server" DataSourceID="SqlDataSource1">
+        <asp:ListView ID="ListView1" runat="server" DataSourceID="SqlDataSource1" OnSelectedIndexChanged="ListView1_SelectedIndexChanged">
             <AlternatingItemTemplate>
                 <span style="background-color: #FFF8DC;">Fecha inicio:
                 <asp:Label ID="fechaInicioLabel" runat="server" Text='<%# Eval("fechaInicio") %>' />
@@ -125,5 +125,7 @@
         </asp:ListView>
         
         <asp:Button ID="Button1" runat="server" Text="Volver" OnClientClick="volver"  />
+
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Ver Movimientos" />
 
 </div></asp:Content>

@@ -3,14 +3,24 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>Movimientos<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SELECT top 8  [fechaInicio], [fechaFinal], [saldoInicial], [saldoFinal], [intereses] FROM [EstadoDeCuenta] WHERE ([idCuenta] = @idCuenta) ORDER BY [fechaInicio] DESC">
+        <h1>Movimientos<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringJoshua %>" SelectCommand="SP_MostrarMovimientos" SelectCommandType="StoredProcedure" UpdateCommand="SP_BuscarMovimientos" UpdateCommandType="StoredProcedure">
             <SelectParameters>
                 <asp:SessionParameter Name="idCuenta" SessionField="CuentaID" Type="Int32" />
             </SelectParameters>
+            <UpdateParameters>
+                <asp:Parameter Name="idcuenta" Type="Int32" />
+                <asp:Parameter Name="patron" Type="String" />
+            </UpdateParameters>
             </asp:SqlDataSource>
         </h1>
         <p>
-            <asp:GridView ID="ListaMovimientos" runat="server" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal">
+            <asp:GridView ID="ListaMovimientos" runat="server" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal" AllowPaging="True" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Width="694px">
+                <Columns>
+                    <asp:BoundField DataField="fechaHora" HeaderText="fechaHora" SortExpression="fechaHora" />
+                    <asp:BoundField DataField="nuevoSaldo" HeaderText="nuevoSaldo" SortExpression="nuevoSaldo" />
+                    <asp:BoundField DataField="descripcion" HeaderText="descripcion" SortExpression="descripcion" />
+                    <asp:BoundField DataField="monto" HeaderText="monto" SortExpression="monto" />
+                </Columns>
                 <FooterStyle BackColor="White" ForeColor="#333333" />
                 <HeaderStyle BackColor="#336666" Font-Bold="True" ForeColor="White" />
                 <PagerStyle BackColor="#336666" ForeColor="White" HorizontalAlign="Center" />

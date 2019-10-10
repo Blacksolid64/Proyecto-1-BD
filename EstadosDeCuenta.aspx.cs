@@ -17,6 +17,16 @@ namespace WebApplication4
         {
             Response.Redirect("Contact");
         }
+
+        protected void ListView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Movimientos.aspx");
+        }
     }
     
 }

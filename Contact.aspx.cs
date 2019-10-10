@@ -12,8 +12,8 @@ namespace WebApplication4
 {
     public partial class Contact : Page
     {
-        //private String connectionString = @"Data Source=HORCHATÁSTICO;Initial Catalog=Banco;Integrated Security=True";
-        private String connectionString = @"Data Source=ZLAPTOP22;Initial Catalog=Base_de_Datos_1;Integrated Security=True";// Cambiado para mi base de datos xd
+        private String connectionString = @"Data Source=HORCHATÁSTICO\SQLEXPRESS;Initial Catalog=Banco;Integrated Security=True";
+        //private String connectionString = @"Data Source=ZLAPTOP22;Initial Catalog=Base_de_Datos_1;Integrated Security=True";// Cambiado para mi base de datos xd
         protected void Page_Load(object sender, EventArgs e)
         {
             if (IsPostBack) return;
@@ -188,6 +188,16 @@ namespace WebApplication4
         {
             ClientScript.RegisterStartupScript(GetType(),"hwa","alert('Se ha eliminado exitosamente')",true);
             actualizarRotulitoLlamativo();
+        }
+
+        protected void SqlDataSource2_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
+        {
+
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("EditarCuentasObjetivo.aspx");
         }
     }
 }
