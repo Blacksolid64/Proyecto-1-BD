@@ -27,6 +27,16 @@ namespace WebApplication4
         {
             Response.Redirect("Movimientos.aspx");
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
+        {
+
+        }
     }
     
 }
