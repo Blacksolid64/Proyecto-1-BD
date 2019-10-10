@@ -16,12 +16,13 @@ GO
 -- =============================================
 -- Author:		Joshua Arcia Lopez
 -- Create date: 2019/10/03
--- Description:	<Muestra y búsqueda de Movimientos en cuenta>
+-- Description:	<Muestra y bÃºsqueda de Movimientos en cuenta>
 -- =============================================
 CREATE PROCEDURE [dbo].SP_OperacionesMovimientos 
 	-- Add the parameters for the stored procedure here
 	-- modo determina si se va buscar o si se va mostrar la informacion de la tabla
-	@idcuenta int = 0
+	@idcuenta int = 0,
+	@idestadocuenta int = 0
 AS
 BEGIN
 	-- SET NOCOUNT ON added to prevent extra result sets from
@@ -29,6 +30,6 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	SELECT fechaHora,nuevoSaldo,descripcion,monto FROM Movimiento WHERE idCuenta = @idcuenta
+	SELECT fechaHora,nuevoSaldo,descripcion,monto FROM Movimiento WHERE idCuenta = @idcuenta and idEstadoDeCuenta = @idestadocuenta
 	END
 GO
