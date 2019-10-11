@@ -37,6 +37,14 @@ namespace WebApplication4
         {
 
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Button BtnSeleccionar = (sender as Button);
+            string commandName = BtnSeleccionar.CommandName;
+            Session["IDEstado"] = commandName;
+            Response.Redirect("Movimientos.aspx");
+        }
     }
     
 }
