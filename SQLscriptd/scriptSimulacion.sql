@@ -5230,10 +5230,10 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 			<numCuenta>666666666777</numCuenta> 
          </BeneficiarioExistente>
          <Movimiento>
-            <numCuenta>444444444555</numCuenta>
+            <numCuenta>7345619</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
             <fecha>2018-01-27</fecha>
-            <monto>150000</monto> 
+            <monto>15</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
@@ -5974,7 +5974,7 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 			<numCuenta>666667777777</numCuenta> 
          </BeneficiarioExistente>
          <Movimiento>
-            <numCuenta>444445555555</numCuenta>
+            <numCuenta>7345619</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
             <fecha>2018-02-02</fecha>
             <monto>150000</monto> 
@@ -7486,9 +7486,10 @@ begin
 		from @Benefic b
 		inner join Persona p on p.identificacion=b.idPersona
 		inner join CuentaAhorro c on c.numCuenta=b.idUsuario
-	select @lastMovId=max(id) from @Movimie 
-	while @idMovimiento<=@lastMovId begin
-		set @monto=null
+	select	@lastMovId=max(id) from @Movimie 
+	while	@idMovimiento<=@lastMovId begin
+		set		@monto=null
+
 		select	@monto=m.monto,
 				@descripcion=m.descripcion,
 				@fechaHora=m.fechaHora,
@@ -7496,10 +7497,13 @@ begin
 				@idCuenta=m.idCuenta
 		from	@Movimie m 
 		where	m.id=@idMovimiento
-		exec @idEstadoCuenta=SP_getLastIdEstadoDeCuenta @idCuenta, @fechaItera		
-		set @idCuenta=(select top 1 id from CuentaAhorro where numCuenta=@idCuenta)
-		if @monto is not null and @idEstadoCuenta!=0
+
+		exec	@idEstadoCuenta=SP_getLastIdEstadoDeCuenta @idCuenta, @fechaItera		
+
+		if		@monto is not null and @idEstadoCuenta!=0 begin
+			set @idCuenta=(select top 1 id from CuentaAhorro where numCuenta=@idCuenta)
 			exec @idEstadoCuenta=SP_procesarMovimiento @monto,@idCuenta,@fechaHora,@descripcion,@idTipoMovimiento,@idEstadoCuenta
+		end
 		else 
 			print 'Se ha ingresado una cuenta que no existe'
 		set @idMovimiento+=1
