@@ -6,6 +6,7 @@
         <h1>Movimientos<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringJoshua %>" SelectCommand="SP_MostrarMovimientos" SelectCommandType="StoredProcedure" UpdateCommand="SP_BuscarMovimientos" UpdateCommandType="StoredProcedure">
             <SelectParameters>
                 <asp:SessionParameter Name="idCuenta" SessionField="CuentaID" Type="Int32" />
+                <asp:SessionParameter Name="idestadocuenta" SessionField="IDEstado" Type="Int32" />
             </SelectParameters>
             <UpdateParameters>
                 <asp:Parameter Name="idcuenta" Type="Int32" />

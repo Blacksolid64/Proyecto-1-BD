@@ -10,7 +10,7 @@
 namespace WebApplication4 {
     
     
-    public partial class _EstadosDeCuenta {
+    public partial class _Movimientos {
         
         /// <summary>
         /// Control SqlDataSource1.

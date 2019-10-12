@@ -12,8 +12,8 @@ namespace WebApplication4
 {
     public partial class Contact : Page
     {
-        private String connectionString = @"Data Source=HORCHATÁSTICO\SQLEXPRESS;Initial Catalog=Banco;Integrated Security=True";
-        //private String connectionString = @"Data Source=ZLAPTOP22;Initial Catalog=Base_de_Datos_1;Integrated Security=True";// Cambiado para mi base de datos xd
+        //private String connectionString = @"Data Source=HORCHATÁSTICO\SQLEXPRESS;Initial Catalog=Banco;Integrated Security=True";
+        private String connectionString = @"Data Source=ZLAPTOP22;Initial Catalog=Base_de_Datos_1;Integrated Security=True";// Cambiado para mi base de datos xd
         protected void Page_Load(object sender, EventArgs e)
         {
             if (IsPostBack) return;
