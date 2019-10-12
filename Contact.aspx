@@ -159,5 +159,5 @@
         <SortedDescendingHeaderStyle BackColor="#00547E" />
     </asp:GridView>
     <asp:Button ID="Button1" runat="server" Text="Ver estados de cuenta" OnClick="Button1_Click" />
-    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Editar cuenta objetivo" />
+    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Editar cuentas objetivo" />
 </asp:Content>

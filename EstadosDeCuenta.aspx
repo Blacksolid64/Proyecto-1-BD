@@ -19,7 +19,7 @@
                     <asp:BoundField DataField="intereses" HeaderText="intereses" SortExpression="intereses" />
                     <asp:TemplateField HeaderText="">
                         <ItemTemplate>
-                            <asp:Button ID=BtnSeleccionar runat="server" Text="Seleccionar" CommandName='<%# Eval("Name") %>' OnClick="Row_Selected" />
+                            <asp:Button ID="BtnSeleccionar" runat="server" Text="Seleccionar" OnClick="Row_Selected" CommandName='<%# Eval("id") %>'  />
                         </ItemTemplate>  
                     </asp:TemplateField>
                 </Columns>
