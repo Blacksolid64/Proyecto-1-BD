@@ -7,7 +7,7 @@
 
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringJoshua %>" SelectCommand="SP_getCuentaObjetivo" SelectCommandType="StoredProcedure" DeleteCommand="SP_borrarCuentaObjetivo" DeleteCommandType="StoredProcedure" InsertCommand="SP_crearCuentaObjetivo" InsertCommandType="StoredProcedure" UpdateCommand="SP_actualizarCuentaObjetivo" UpdateCommandType="StoredProcedure">
             <DeleteParameters>
-                <asp:Parameter Name="idCuenta" Type="Int32" />
+                <asp:SessionParameter Name="idCuenta" SessionField="CuentaID" Type="Int32" />
             </DeleteParameters>
             <InsertParameters>
                 <asp:Parameter Name="idCuenta" Type="Int32" />
@@ -27,6 +27,7 @@
             <AlternatingRowStyle BackColor="Gainsboro" />
             <Columns>
                 <asp:BoundField DataField="descripcion" HeaderText="descripcion" SortExpression="descripcion" />
+                <asp:CommandField ShowDeleteButton="True" />
             </Columns>
             <FooterStyle BackColor="#CCCCCC" ForeColor="Black" />
             <HeaderStyle BackColor="#000084" Font-Bold="True" ForeColor="White" />
@@ -40,5 +41,7 @@
         </asp:GridView>
         
         <asp:Button ID="Button1" runat="server" Text="Volver" OnClientClick="volver"  />
+
+        <asp:Button ID="Button2" runat="server" Text="Añadir Cuenta Objetivo" />
 
 </div></asp:Content>
