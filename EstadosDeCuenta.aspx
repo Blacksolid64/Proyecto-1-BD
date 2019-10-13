@@ -3,28 +3,37 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>Estados de cuenta<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringJoshua %>" SelectCommand="SELECT * FROM [EstadoDeCuenta] WHERE ([idCuenta] = @idCuenta)" OnSelecting="SqlDataSource1_Selecting">
+        <h1>Estados de cuenta
+        </h1><asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SELECT * FROM [EstadoDeCuenta] WHERE ([idCuenta] = @idCuenta)" OnSelecting="SqlDataSource1_Selecting">
             <SelectParameters>
-                <asp:SessionParameter Name="idCuenta" SessionField="ClienteID" Type="Int32" />
+                <asp:SessionParameter Name="idCuenta" SessionField="CuentaID" Type="Int32" />
             </SelectParameters>
             </asp:SqlDataSource>
-            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="SqlDataSource1" Height="260px" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" Width="860px">
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="SqlDataSource1" Height="220px" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" Width="560px" 
+        BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3"  >
                 <Columns>
                     <asp:BoundField DataField="id" HeaderText="id" Visible ="false" InsertVisible="False" ReadOnly="True" SortExpression="id" />
                     <asp:BoundField DataField="idCuenta" HeaderText="idCuenta" Visible = "False" SortExpression="idCuenta" />
-                    <asp:BoundField DataField="fechaInicio" HeaderText="fechaInicio" SortExpression="fechaInicio" />
-                    <asp:BoundField DataField="fechaFinal" HeaderText="fechaFinal" SortExpression="fechaFinal" />
-                    <asp:BoundField DataField="saldoInicial" HeaderText="saldoInicial" SortExpression="saldoInicial" />
-                    <asp:BoundField DataField="saldoFinal" HeaderText="saldoFinal" SortExpression="saldoFinal" />
-                    <asp:BoundField DataField="intereses" HeaderText="intereses" SortExpression="intereses" />
+                    <asp:BoundField DataField="fechaInicio" HeaderText="Fecha Inicio" SortExpression="fechaInicio" />
+                    <asp:BoundField DataField="fechaFinal" HeaderText="Fecha Final" SortExpression="fechaFinal" />
+                    <asp:BoundField DataField="saldoInicial" HeaderText="Saldo Inicial" SortExpression="saldoInicial" />
+                    <asp:BoundField DataField="saldoFinal" HeaderText="Saldo Final" SortExpression="saldoFinal" />
+                    <asp:BoundField DataField="intereses" HeaderText="Intereses" SortExpression="intereses" />
                     <asp:TemplateField HeaderText="">
                         <ItemTemplate>
                             <asp:Button ID="BtnSeleccionar" runat="server" Text="Seleccionar" OnClick="Row_Selected" CommandName='<%# Eval("id") %>'  />
                         </ItemTemplate>  
                     </asp:TemplateField>
                 </Columns>
+        <FooterStyle BackColor="White" ForeColor="#000066" />
+        <HeaderStyle BackColor="#006699" Font-Bold="true" ForeColor="White" />
+        <PagerStyle BackColor="White" ForeColor="#000066" HorizontalAlign="Left" />
+        <RowStyle ForeColor="#000066" />
+        <SortedAscendingCellStyle BackColor="#F1F1F1" />
+        <SortedAscendingHeaderStyle BackColor="#007DBB" />
+        <SortedDescendingCellStyle BackColor="#CAC9C9" />
+        <SortedDescendingHeaderStyle BackColor="#00547E" />
             </asp:GridView>
-        </h1>
 
         <asp:Button ID="Button1" runat="server" Text="Volver" OnClientClick="volver" OnClick="Button1_Click"  />
 
