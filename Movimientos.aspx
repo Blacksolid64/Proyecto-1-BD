@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="Movimientos.aspx.cs" Inherits="WebApplication4._EstadosDeCuenta" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="Movimientos.aspx.cs" Inherits="WebApplication4._Movimientos" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -15,7 +15,7 @@
             </asp:SqlDataSource>
         </h1>
         <p>
-            <asp:GridView ID="ListaMovimientos" runat="server" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal" AllowPaging="True" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Width="694px">
+            <asp:GridView ID="ListaMovimientos" runat="server" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal" AllowPaging="True" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Width="694px" OnSelectedIndexChanged="ListaMovimientos_SelectedIndexChanged">
                 <Columns>
                     <asp:BoundField DataField="fechaHora" HeaderText="fechaHora" SortExpression="fechaHora" />
                     <asp:BoundField DataField="nuevoSaldo" HeaderText="nuevoSaldo" SortExpression="nuevoSaldo" />
@@ -38,9 +38,9 @@
             <asp:TextBox ID="Descripcion_Movimiento" runat="server" BorderStyle="Outset" ToolTip="Digite la descripción del movimiento" Width="191px"></asp:TextBox>
         </p>
         <p>
-            <asp:Button ID="Consultar" runat="server" BorderStyle="Inset" Text="Consultar" />
+            <asp:Button ID="Consultar" runat="server" BorderStyle="Inset" Text="Consultar" OnClick="Consultar_Click" />
         </p>
 
-        <asp:Button ID="Button1" runat="server" Text="Volver" OnClientClick="volver" Width="60px"  />
+        <asp:Button ID="Button1" runat="server" Text="Volver" OnClientClick="volver" Width="60px" Height="26px"  />
 
 </div></asp:Content>
