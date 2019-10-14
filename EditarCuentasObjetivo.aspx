@@ -5,7 +5,7 @@
     <div class="jumbotron">
         <h1>Cuentas Objetivo</h1>
 
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringJoshua %>" SelectCommand="SP_getCuentaObjetivo" SelectCommandType="StoredProcedure" DeleteCommand="SP_borrarCuentaObjetivo" DeleteCommandType="StoredProcedure" InsertCommand="SP_crearCuentaObjetivo" InsertCommandType="StoredProcedure" UpdateCommand="SP_actualizarCuentaObjetivo" UpdateCommandType="StoredProcedure">
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SP_getCuentaObjetivo" SelectCommandType="StoredProcedure" DeleteCommand="SP_borrarCuentaObjetivo" DeleteCommandType="StoredProcedure" InsertCommand="SP_crearCuentaObjetivo" InsertCommandType="StoredProcedure" UpdateCommand="SP_actualizarCuentaObjetivo" UpdateCommandType="StoredProcedure">
             <DeleteParameters>
                 <asp:SessionParameter Name="idCuenta" SessionField="CuentaID" Type="Int32" />
             </DeleteParameters>
@@ -18,7 +18,7 @@
                 <asp:SessionParameter Name="idCuenta" SessionField="CuentaID" Type="Int32" />
             </SelectParameters>
             <UpdateParameters>
-                <asp:Parameter Name="idCuenta" Type="Int32" />
+                <asp:SessionParameter Name="idCuenta" SessionField ="CuentaID" Type="Int32" />
                 <asp:Parameter Name="descripcion" Type="String" />
             </UpdateParameters>
         </asp:SqlDataSource>

@@ -14,16 +14,10 @@ namespace WebApplication4
 
         }
 
-  
-
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Movimientos.aspx");
-        }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Contact");
+            Response.Redirect("Contact.aspx");
         }
 
         protected void Row_Selected(object sender, EventArgs e)
@@ -34,7 +28,10 @@ namespace WebApplication4
             Response.Redirect("Movimientos.aspx");
         }
 
-       
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

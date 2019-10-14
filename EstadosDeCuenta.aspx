@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
         <h1>Estados de cuenta
-        </h1><asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SELECT * FROM [EstadoDeCuenta] WHERE ([idCuenta] = @idCuenta)" OnSelecting="SqlDataSource1_Selecting">
+        </h1><asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SELECT * FROM [EstadoDeCuenta] WHERE ([idCuenta] = @idCuenta) ">
             <SelectParameters>
                 <asp:SessionParameter Name="idCuenta" SessionField="CuentaID" Type="Int32" />
             </SelectParameters>
@@ -36,7 +36,5 @@
             </asp:GridView>
 
         <asp:Button ID="Button1" runat="server" Text="Volver" OnClientClick="volver" OnClick="Button1_Click"  />
-
-        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Ver Movimientos" />
 
 </div></asp:Content>

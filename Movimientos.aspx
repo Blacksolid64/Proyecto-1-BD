@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>Movimientos<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringJoshua %>" SelectCommand="SP_MostrarMovimientos" SelectCommandType="StoredProcedure" UpdateCommand="SP_BuscarMovimientos" UpdateCommandType="StoredProcedure">
+        <h1>Movimientos<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SP_MostrarMovimientos" SelectCommandType="StoredProcedure" UpdateCommand="SP_BuscarMovimientos" UpdateCommandType="StoredProcedure" >
             <SelectParameters>
                 <asp:SessionParameter Name="idCuenta" SessionField="CuentaID" Type="Int32" />
                 <asp:SessionParameter Name="idestadocuenta" SessionField="IDEstado" Type="Int32" />
@@ -15,7 +15,7 @@
             </asp:SqlDataSource>
         </h1>
         <p>
-            <asp:GridView ID="ListaMovimientos" runat="server" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal" AllowPaging="True" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Width="694px" OnSelectedIndexChanged="ListaMovimientos_SelectedIndexChanged">
+            <asp:GridView ID="ListaMovimientos" runat="server" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal" AllowPaging="True" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Width="694px" >
                 <Columns>
                     <asp:BoundField DataField="fechaHora" HeaderText="fechaHora" SortExpression="fechaHora" />
                     <asp:BoundField DataField="nuevoSaldo" HeaderText="nuevoSaldo" SortExpression="nuevoSaldo" />
@@ -41,6 +41,6 @@
             <asp:Button ID="Consultar" runat="server" BorderStyle="Inset" Text="Consultar" OnClick="Consultar_Click" />
         </p>
 
-        <asp:Button ID="Button1" runat="server" Text="Volver" OnClientClick="volver" Width="60px" Height="26px"  />
+        <asp:Button ID="Button1" runat="server" Text="Volver" OnClientClick="volver" Width="60px" Height="26px" OnClick="Button1_Click"  />
 
 </div></asp:Content>

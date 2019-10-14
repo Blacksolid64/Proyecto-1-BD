@@ -14,14 +14,17 @@ namespace WebApplication4
            
         }
 
-      
+     
 
-        protected void volver(object sender, EventArgs e)
+        protected void Consultar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Contact");
+
         }
 
-        
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("EstadosDeCuenta");
+        }
     }
     
 }
