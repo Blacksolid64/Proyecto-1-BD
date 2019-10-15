@@ -18,12 +18,17 @@ namespace WebApplication4
 
         protected void Consultar_Click(object sender, EventArgs e)
         {
-
+            SqlDataSource1.Update();
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
             Response.Redirect("EstadosDeCuenta");
+        }
+
+        protected void Descripcion_Movimiento_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
     

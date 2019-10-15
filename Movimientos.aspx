@@ -9,8 +9,8 @@
                 <asp:SessionParameter Name="idestadocuenta" SessionField="IDEstado" Type="Int32" />
             </SelectParameters>
             <UpdateParameters>
-                <asp:Parameter Name="idcuenta" Type="Int32" />
-                <asp:Parameter Name="patron" Type="String" />
+                <asp:SessionParameter Name="idcuenta" SessionField="CuentaID" Type="Int32" />
+                <asp:ControlParameter Name="patron" Type="String" ControlID="Descripcion_Movimiento"/>
             </UpdateParameters>
             </asp:SqlDataSource>
         </h1>
@@ -35,7 +35,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </p>
         <p>
-            <asp:TextBox ID="Descripcion_Movimiento" runat="server" BorderStyle="Outset" ToolTip="Digite la descripción del movimiento" Width="191px"></asp:TextBox>
+            <asp:TextBox ID="Descripcion_Movimiento" runat="server" BorderStyle="Outset" ToolTip="Digite la descripción del movimiento" Width="191px" OnTextChanged="Descripcion_Movimiento_TextChanged"></asp:TextBox>
         </p>
         <p>
             <asp:Button ID="Consultar" runat="server" BorderStyle="Inset" Text="Consultar" OnClick="Consultar_Click" />
