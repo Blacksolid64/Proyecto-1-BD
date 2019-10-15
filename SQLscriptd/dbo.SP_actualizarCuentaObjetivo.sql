@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[SP_actualizarCuentaObjetivo]
+﻿alter PROCEDURE [dbo].[SP_actualizarCuentaObjetivo]
 	@idCuenta int,
 	@descripcion nvarchar(500)
 as
