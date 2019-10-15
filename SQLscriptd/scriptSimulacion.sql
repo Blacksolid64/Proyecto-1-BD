@@ -251,25 +251,25 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <nombre>Rodrigo Ramirez Mora</nombre>
          </Cliente>
          <Cuenta>
-            <numCuenta>1245631</numCuenta>
+            <numCuenta>1712301</numCuenta>
             <saldo>2589630</saldo>
             <cliente>135472067</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2005-04-18</fechaCreacion>
+            <fechaCreacion>2018-01-02</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
-            <numCuenta>324556</numCuenta>
+            <numCuenta>1245631</numCuenta>
             <saldo>380000</saldo>
             <cliente>204563700</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2019-03-02</fechaCreacion>
+            <fechaCreacion>2018-01-02</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>5347631</numCuenta>
             <saldo>3589000</saldo>
             <cliente>123753159</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>1983-12-20</fechaCreacion>
+            <fechaCreacion>2018-01-02</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Jenny Aguero Segura</nombre>
@@ -469,21 +469,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>16389043</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-03</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>567783</numCuenta>
             <saldo>380000</saldo>
             <cliente>22775599</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-03</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>2343456</numCuenta>
             <saldo>3589000</saldo>
             <cliente>590781234</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-03</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Cesar Gamboa Solano</nombre>
@@ -669,21 +669,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>43667872</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-04</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>54678789</numCuenta>
             <saldo>380000</saldo>
             <cliente>3456678</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-04</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>3455667</numCuenta>
             <saldo>3589000</saldo>
             <cliente>37878832</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-04</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Iveth Gamboa Solano</nombre>
@@ -869,21 +869,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>5677889</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-05</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>565677843</numCuenta>
             <saldo>380000</saldo>
             <cliente>3456678245</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-05</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>4566576</numCuenta>
             <saldo>3589000</saldo>
             <cliente>54677832</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-05</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Tatiana Jimenez Solano</nombre>
@@ -1055,21 +1055,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>8786769</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-06</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>45453423</numCuenta>
             <saldo>380000</saldo>
             <cliente>786756565</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-06</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>45489879</numCuenta>
             <saldo>3589000</saldo>
             <cliente>123456353</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-06</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Kevin Jimenez Solano</nombre>
@@ -1241,21 +1241,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180107</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-07</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>45453423090</numCuenta>
             <saldo>380000</saldo>
             <cliente>0000545634</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-07</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>78786324556</numCuenta>
             <saldo>3589000</saldo>
             <cliente>767656523</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-07</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Hazel Jimenez Solano</nombre>
@@ -1427,21 +1427,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180108</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-08</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>3455667213</numCuenta>
             <saldo>380000</saldo>
             <cliente>20180188</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-08</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>34565788924</numCuenta>
             <saldo>3589000</saldo>
             <cliente>325678478</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-08</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Iliana Jimenez Solano</nombre>
@@ -1613,21 +1613,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180109</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-09</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>324556560923</numCuenta>
             <saldo>380000</saldo>
             <cliente>20180199</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-09</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>12343560954</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018019999</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-09</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Dora Jimenez Solano</nombre>
@@ -1799,21 +1799,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180110</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-10</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>467889213456</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801100</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-10</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>456676723445</numCuenta>
             <saldo>3589000</saldo>
             <cliente>20180110000</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-10</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Daniel Jimenez Solano</nombre>
@@ -1970,7 +1970,7 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <nombre>Nazareth Morgan Araya</nombre>
          </Cliente>
 		 <Cliente>
-            <fechaNacimiento>1954-02-07</fechaNacimiento>
+            <fechaNacimiento>1954-11-07</fechaNacimiento>
             <usuario>fercald</usuario>
             <contrasenia>ferrcr</contrasenia>
             <tipoDocId>Cedula Nacional</tipoDocId>
@@ -1985,21 +1985,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180111</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-11</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>9999213456</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801111</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-11</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>456111111445</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018011111</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-11</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Ricardo Jimenez Solano</nombre>
@@ -2171,21 +2171,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180112</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-12</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>2222222222</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801122</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-12</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>333333333333</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018011222</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-12</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Rihanna Jimenez Solano</nombre>
@@ -2357,21 +2357,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180113</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-13</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>2222222223</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801133</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-13</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>333333333334</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018011333</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-13</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Riley Jimenez Solano</nombre>
@@ -2543,21 +2543,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180114</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-14</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>2222222233</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801144</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-14</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>333333333344</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018011444</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-14</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Rey Jimenez Solano</nombre>
@@ -2729,21 +2729,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180115</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-15</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>2222222333</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801155</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-15</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>333333333444</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018011555</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-15</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Reina Jimenez Solano</nombre>
@@ -2915,21 +2915,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180116</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-16</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>2222223333</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801166</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-16</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>333333334444</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018011666</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-16</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Retana Jimenez Solano</nombre>
@@ -3101,21 +3101,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180117</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-17</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>2222233333</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801177</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-17</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>333333344444</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018011777</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-17</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Alejandra Jimenez Solano</nombre>
@@ -3287,21 +3287,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180118</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-18</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>22222333333</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801188</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-18</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>333333444444</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018011888</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-18</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Alejandro Jimenez Solano</nombre>
@@ -3473,21 +3473,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180119</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-19</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>22223333333</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801199</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-19</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>333334444444</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018011999</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-19</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Alejo Jimenez Solano</nombre>
@@ -3659,21 +3659,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180120</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-20</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>22233333333</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801200</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-20</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>333344444444</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018012000</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-20</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Alex Jimenez Solano</nombre>
@@ -3845,21 +3845,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180121</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-21</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>22333333333</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801211</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-21</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>333444444444</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018012111</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-21</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Alexandra Jimenez Solano</nombre>
@@ -4031,21 +4031,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180122</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-22</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>223333333333</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801222</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-22</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>334444444444</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018012222</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-22</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Alexandro Jimenez Solano</nombre>
@@ -4217,21 +4217,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180123</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-23</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>233333333333</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801233</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-23</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>344444444444</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018012333</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-23</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Alex Jimenez Solano</nombre>
@@ -4364,7 +4364,7 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
          </Movimiento>
       </FechaOperacion>
 	  
-	  <FechaOperacion fecha= "2018-01-23" >
+	  <FechaOperacion fecha= "2018-01-24" >
          <Cliente>
             <fechaNacimiento>1930-12-12</fechaNacimiento>
             <usuario>dannyylal</usuario>
@@ -4403,21 +4403,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180123456</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-24</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>2333333333330</numCuenta>
             <saldo>380000</saldo>
             <cliente>20180123000</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-24</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>3444444444440</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2218223000</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-24</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Alex Jimenez Solano</nombre>
@@ -4488,21 +4488,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
          <Movimiento>
             <numCuenta>1222222222220</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-23</fecha>
+            <fecha>2018-01-24</fecha>
             <monto>150000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>1222222222220</numCuenta>
             <tipoMovimiento>retiroCH</tipoMovimiento>
-            <fecha>2018-01-23</fecha>
+            <fecha>2018-01-24</fecha>
             <monto>-100000</monto>  
 			<descripcion>Banco Nacional</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>1222222222220</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-23</fecha>
+            <fecha>2018-01-24</fecha>
             <monto>-30000</monto> 
 			<descripcion>ATM07</descripcion>
          </Movimiento>
@@ -4516,41 +4516,41 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 		 <Movimiento>
             <numCuenta>2333333333330</numCuenta>
             <tipoMovimiento>compras</tipoMovimiento>
-            <fecha>2018-01-23</fecha>
+            <fecha>2018-01-24</fecha>
             <monto>-355000</monto> 
 			<descripcion>Bar La Nave</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>2333333333330</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-23</fecha>
+            <fecha>2018-01-24</fecha>
             <monto>-41000</monto> 
 			<descripcion>ATM07</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>3444444444440</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-23</fecha>
+            <fecha>2018-01-24</fecha>
             <monto>50000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>3444444444440</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-23</fecha>
+            <fecha>2018-01-24</fecha>
             <monto>20000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>3444444444440</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-23</fecha>
+            <fecha>2018-01-24</fecha>
             <monto>-30000</monto> 
 			<descripcion>ATM07</descripcion> 
          </Movimiento>
       </FechaOperacion>
 	  
-	  <FechaOperacion fecha= "2018-01-24" >
+	  <FechaOperacion fecha= "2018-01-25" >
          <Cliente>
             <fechaNacimiento>1930-12-12</fechaNacimiento>
             <usuario>carlal</usuario>
@@ -4589,21 +4589,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180124</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-25</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>555555555555</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801244</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-25</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>666666666666</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018012444</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-25</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Ale Jimenez Solano</nombre>
@@ -4674,69 +4674,69 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
          <Movimiento>
             <numCuenta>444444444444</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-24</fecha>
+            <fecha>2018-01-25</fecha>
             <monto>150000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>444444444444</numCuenta>
             <tipoMovimiento>retiroCH</tipoMovimiento>
-            <fecha>2018-01-24</fecha>
+            <fecha>2018-01-25</fecha>
             <monto>-100000</monto>  
 			<descripcion>Banco Nacional</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>444444444444</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-24</fecha>
+            <fecha>2018-01-25</fecha>
             <monto>-30000</monto> 
 			<descripcion>ATM07</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>444444444444</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-24</fecha>
+            <fecha>2018-01-25</fecha>
             <monto>200000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>555555555555</numCuenta>
             <tipoMovimiento>compras</tipoMovimiento>
-            <fecha>2018-01-24</fecha>
+            <fecha>2018-01-25</fecha>
             <monto>-355000</monto> 
 			<descripcion>Bar La Nave</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>555555555555</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-24</fecha>
+            <fecha>2018-01-25</fecha>
             <monto>-41000</monto> 
 			<descripcion>ATM07</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>666666666666</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-24</fecha>
+            <fecha>2018-01-25</fecha>
             <monto>50000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>666666666666</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-24</fecha>
+            <fecha>2018-01-25</fecha>
             <monto>20000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>666666666666</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-24</fecha>
+            <fecha>2018-01-25</fecha>
             <monto>-30000</monto> 
 			<descripcion>ATM07</descripcion> 
          </Movimiento>
       </FechaOperacion>
 	  
-	  <FechaOperacion fecha= "2018-01-25" >
+	  <FechaOperacion fecha= "2018-01-26" >
          <Cliente>
             <fechaNacimiento>1930-12-12</fechaNacimiento>
             <usuario>carlotal</usuario>
@@ -4775,21 +4775,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180125</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-26</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>555555555556</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801255</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-26</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>666666666667</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018012555</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-26</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Alejo Jimenez Solano</nombre>
@@ -4860,69 +4860,69 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
          <Movimiento>
             <numCuenta>444444444445</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-25</fecha>
+            <fecha>2018-01-26</fecha>
             <monto>150000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>444444444445</numCuenta>
             <tipoMovimiento>retiroCH</tipoMovimiento>
-            <fecha>2018-01-25</fecha>
+            <fecha>2018-01-26</fecha>
             <monto>-100000</monto>  
 			<descripcion>Banco Nacional</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>444444444445</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-25</fecha>
+            <fecha>2018-01-26</fecha>
             <monto>-30000</monto> 
 			<descripcion>ATM07</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>444444444445</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-25</fecha>
+            <fecha>2018-01-26</fecha>
             <monto>200000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>555555555556</numCuenta>
             <tipoMovimiento>compras</tipoMovimiento>
-            <fecha>2018-01-25</fecha>
+            <fecha>2018-01-26</fecha>
             <monto>-355000</monto> 
 			<descripcion>Bar La Nave</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>555555555556</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-25</fecha>
+            <fecha>2018-01-26</fecha>
             <monto>-41000</monto> 
 			<descripcion>ATM07</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>666666666667</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-25</fecha>
+            <fecha>2018-01-26</fecha>
             <monto>50000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>666666666667</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-25</fecha>
+            <fecha>2018-01-26</fecha>
             <monto>20000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>666666666667</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-25</fecha>
+            <fecha>2018-01-26</fecha>
             <monto>-30000</monto> 
 			<descripcion>ATM07</descripcion> 
          </Movimiento>
       </FechaOperacion>
 	  
-	  <FechaOperacion fecha= "2018-01-26" >
+	  <FechaOperacion fecha= "2018-01-27" >
          <Cliente>
             <fechaNacimiento>1930-12-12</fechaNacimiento>
             <usuario>cartal</usuario>
@@ -4961,21 +4961,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180126</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-27</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>555555555566</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801266</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-27</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>666666666677</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018012666</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-27</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Alexx Jimenez Solano</nombre>
@@ -5046,69 +5046,69 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
          <Movimiento>
             <numCuenta>444444444455</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-26</fecha>
+            <fecha>2018-01-27</fecha>
             <monto>150000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>444444444455</numCuenta>
             <tipoMovimiento>retiroCH</tipoMovimiento>
-            <fecha>2018-01-26</fecha>
+            <fecha>2018-01-27</fecha>
             <monto>-100000</monto>  
 			<descripcion>Banco Nacional</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>444444444455</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-26</fecha>
+            <fecha>2018-01-27</fecha>
             <monto>-30000</monto> 
 			<descripcion>ATM07</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>444444444455</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-26</fecha>
+            <fecha>2018-01-27</fecha>
             <monto>200000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>555555555566</numCuenta>
             <tipoMovimiento>compras</tipoMovimiento>
-            <fecha>2018-01-26</fecha>
+            <fecha>2018-01-27</fecha>
             <monto>-355000</monto> 
 			<descripcion>Bar La Nave</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>555555555566</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-26</fecha>
+            <fecha>2018-01-27</fecha>
             <monto>-41000</monto> 
 			<descripcion>ATM07</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>666666666677</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-26</fecha>
+            <fecha>2018-01-27</fecha>
             <monto>50000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>666666666677</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-26</fecha>
+            <fecha>2018-01-27</fecha>
             <monto>20000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>666666666677</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-26</fecha>
+            <fecha>2018-01-27</fecha>
             <monto>-30000</monto> 
 			<descripcion>ATM07</descripcion> 
          </Movimiento>
       </FechaOperacion>
 	  
-	  <FechaOperacion fecha= "2018-01-27" >
+	  <FechaOperacion fecha= "2018-01-28" >
          <Cliente>
             <fechaNacimiento>1930-12-12</fechaNacimiento>
             <usuario>cel</usuario>
@@ -5147,21 +5147,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180127</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-28</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>555555555666</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801277</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-28</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>666666666777</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018012777</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-28</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Alvaro Jimenez Solano</nombre>
@@ -5230,65 +5230,65 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 			<numCuenta>666666666777</numCuenta> 
          </BeneficiarioExistente>
          <Movimiento>
-            <numCuenta>7345619</numCuenta>
+            <numCuenta>444444444555</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-27</fecha>
-            <monto>15</monto> 
+            <fecha>2018-01-28</fecha>
+            <monto>150000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>444444444555</numCuenta>
             <tipoMovimiento>retiroCH</tipoMovimiento>
-            <fecha>2018-01-27</fecha>
+            <fecha>2018-01-28</fecha>
             <monto>-100000</monto>  
 			<descripcion>Banco Nacional</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>444444444555</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-27</fecha>
+            <fecha>2018-01-28</fecha>
             <monto>-30000</monto> 
 			<descripcion>ATM07</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>444444444555</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-27</fecha>
+            <fecha>2018-01-28</fecha>
             <monto>200000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>555555555666</numCuenta>
             <tipoMovimiento>compras</tipoMovimiento>
-            <fecha>2018-01-27</fecha>
+            <fecha>2018-01-28</fecha>
             <monto>-355000</monto> 
 			<descripcion>Bar La Nave</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>555555555666</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-27</fecha>
+            <fecha>2018-01-28</fecha>
             <monto>-41000</monto> 
 			<descripcion>ATM07</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>666666666777</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-27</fecha>
+            <fecha>2018-01-28</fecha>
             <monto>50000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>666666666777</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
-            <fecha>2018-01-27</fecha>
+            <fecha>2018-01-28</fecha>
             <monto>20000</monto> 
 			<descripcion>TGH456MC</descripcion>
          </Movimiento>
 		 <Movimiento>
             <numCuenta>666666666777</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
-            <fecha>2018-01-27</fecha>
+            <fecha>2018-01-28</fecha>
             <monto>-30000</monto> 
 			<descripcion>ATM07</descripcion> 
          </Movimiento>
@@ -5333,21 +5333,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180129</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-29</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>555555556666</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801299</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-29</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>666666667777</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018012999</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-29</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Allan Jimenez Solano</nombre>
@@ -5519,21 +5519,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180131</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-31</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>555555566666</numCuenta>
             <saldo>380000</saldo>
             <cliente>201801311</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-31</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>666666677777</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018013111</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-01-31</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Allann Jimenez Solano</nombre>
@@ -5705,21 +5705,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180201</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-01</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>555555666666</numCuenta>
             <saldo>380000</saldo>
             <cliente>201802011</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-01</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>666666777777</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018020111</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-01</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Arlene Jimenez Solano</nombre>
@@ -5891,21 +5891,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180202</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-02</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>555556666666</numCuenta>
             <saldo>380000</saldo>
             <cliente>201802022</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-02</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>666667777777</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018020222</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-02</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Arlenne Jimenez Solano</nombre>
@@ -5974,7 +5974,7 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 			<numCuenta>666667777777</numCuenta> 
          </BeneficiarioExistente>
          <Movimiento>
-            <numCuenta>7345619</numCuenta>
+            <numCuenta>444445555555</numCuenta>
             <tipoMovimiento>deposito</tipoMovimiento>
             <fecha>2018-02-02</fecha>
             <monto>150000</monto> 
@@ -6038,6 +6038,564 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
          </Movimiento>
       </FechaOperacion>
 	  
+	  <FechaOperacion fecha= "2018-02-03" >
+         <Cliente>
+            <fechaNacimiento>1930-12-12</fechaNacimiento>
+            <usuario>carlyyl</usuario>
+            <contrasenia>dlopc</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>20180203</docId>
+            <email>c.lop@gmail.com</email>
+            <telefono1>88852048</telefono1>
+			<telefono2>20459870</telefono2>
+            <nombre>Carta Lopez Carvajal</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1924-12-10</fechaNacimiento>
+            <usuario>bbbryamorgan</usuario>
+            <contrasenia>bmorgan</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>201802033</docId>
+            <email>b.morg@gmail.com</email>
+            <telefono1>87003214</telefono1>
+			<telefono2>24555505</telefono2>
+            <nombre>Britt Morgan Araya</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1954-02-07</fechaNacimiento>
+            <usuario>jonacald</usuario>
+            <contrasenia>jrcr</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>2018020333</docId>
+            <email>j.rcald@gmail@gmail.com</email>
+            <telefono1>82568910</telefono1>
+			<telefono2>24503179</telefono2> 
+            <nombre>Johnny Ruiz Calderon</nombre>
+         </Cliente>
+         <Cuenta>
+            <numCuenta>777777888888</numCuenta>
+            <saldo>258000</saldo>
+            <cliente>20180203</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-02-03</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>888888999999</numCuenta>
+            <saldo>380000</saldo>
+            <cliente>201802033</cliente>
+            <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
+            <fechaCreacion>2018-02-03</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>999999000000</numCuenta>
+            <saldo>3589000</saldo>
+            <cliente>2018020333</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-02-03</fechaCreacion>
+         </Cuenta>
+         <BeneficiarioNuevo>
+            <nombre>Arleke Jimenez Solano</nombre>
+            <parentesco>H</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>1267883456</docId>
+            <email>a.jim@gmail.com</email>
+            <telefono1>60138525</telefono1>
+			<telefono2>27410505</telefono2>
+			<numCuenta>777777888888</numCuenta>
+            <fechaNacimiento>1990-07-31</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>P</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>2018020333</docId> 
+			<numCuenta>777777888888</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>Mark Cruz Gamboa</nombre>
+            <parentesco>D</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>62788989</docId>
+            <email>m.cruz@gmail.com</email>
+            <telefono1>87515806</telefono1>
+			<telefono2>24930520</telefono2>
+			<numCuenta>888888999999</numCuenta>
+            <fechaNacimiento>2006-05-06</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>20180203</docId> 
+			<numCuenta>888888999999</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>Mimi Calderon Meza</nombre>
+            <parentesco>M</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>7223567903445</docId>
+            <email>m.cal@gmail.com</email>
+            <telefono1>62406580</telefono1>
+			<telefono2>24503179</telefono2>
+			<numCuenta>999999000000</numCuenta>
+            <fechaNacimiento>1997-10-12</fechaNacimiento>
+         </BeneficiarioNuevo>
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>201802033</docId> 
+			<numCuenta>999999000000</numCuenta> 
+         </BeneficiarioExistente>
+         <Movimiento>
+            <numCuenta>777777888888</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-02-03</fecha>
+            <monto>150000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777888888</numCuenta>
+            <tipoMovimiento>retiroCH</tipoMovimiento>
+            <fecha>2018-02-03</fecha>
+            <monto>-100000</monto>  
+			<descripcion>Banco Nacional</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777888888</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-02-03</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777888888</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-02-03</fecha>
+            <monto>200000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>888888999999</numCuenta>
+            <tipoMovimiento>compras</tipoMovimiento>
+            <fecha>2018-02-03</fecha>
+            <monto>-355000</monto> 
+			<descripcion>Bar La Nave</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>888888999999</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-02-03</fecha>
+            <monto>-41000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>999999000000</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-02-03</fecha>
+            <monto>50000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>999999000000</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-02-03</fecha>
+            <monto>20000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>999999000000</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-02-03</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion> 
+         </Movimiento>
+      </FechaOperacion>
+	  
+	  <FechaOperacion fecha= "2018-02-04" >
+         <Cliente>
+            <fechaNacimiento>1930-12-12</fechaNacimiento>
+            <usuario>carcayl</usuario>
+            <contrasenia>dlopc</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>20180204</docId>
+            <email>c.lop@gmail.com</email>
+            <telefono1>88852048</telefono1>
+			<telefono2>20459870</telefono2>
+            <nombre>Car Lopez Carvajal</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1924-12-10</fechaNacimiento>
+            <usuario>bbbrrryamorgan</usuario>
+            <contrasenia>bmorgan</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>201802044</docId>
+            <email>b.morg@gmail.com</email>
+            <telefono1>87003214</telefono1>
+			<telefono2>24555505</telefono2>
+            <nombre>Britt Morgan Araya</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1954-02-07</fechaNacimiento>
+            <usuario>jonanncald</usuario>
+            <contrasenia>jrcr</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>2018020444</docId>
+            <email>j.rcald@gmail@gmail.com</email>
+            <telefono1>82568910</telefono1>
+			<telefono2>24503179</telefono2> 
+            <nombre>Johnn Ruiz Calderon</nombre>
+         </Cliente>
+         <Cuenta>
+            <numCuenta>777778888888</numCuenta>
+            <saldo>258000</saldo>
+            <cliente>20180204</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-02-04</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>888889999999</numCuenta>
+            <saldo>380000</saldo>
+            <cliente>201802044</cliente>
+            <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
+            <fechaCreacion>2018-02-04</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>999990000000</numCuenta>
+            <saldo>3589000</saldo>
+            <cliente>2018020444</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-02-04</fechaCreacion>
+         </Cuenta>
+         <BeneficiarioNuevo>
+            <nombre>Arleke Jimenez Solano</nombre>
+            <parentesco>H</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>12678788926</docId>
+            <email>a.jim@gmail.com</email>
+            <telefono1>60138525</telefono1>
+			<telefono2>27410505</telefono2>
+			<numCuenta>777778888888</numCuenta>
+            <fechaNacimiento>1990-07-31</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>P</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>2018020444</docId> 
+			<numCuenta>777778888888</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>Marko Cruz Gamboa</nombre>
+            <parentesco>D</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>62788989678</docId>
+            <email>m.cruz@gmail.com</email>
+            <telefono1>87515806</telefono1>
+			<telefono2>24930520</telefono2>
+			<numCuenta>888889999999</numCuenta>
+            <fechaNacimiento>2006-05-06</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>20180204</docId> 
+			<numCuenta>888889999999</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>Mimim Calderon Meza</nombre>
+            <parentesco>M</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>7444444444444</docId>
+            <email>m.cal@gmail.com</email>
+            <telefono1>62406580</telefono1>
+			<telefono2>24503179</telefono2>
+			<numCuenta>999990000000</numCuenta>
+            <fechaNacimiento>1997-10-12</fechaNacimiento>
+         </BeneficiarioNuevo>
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>201802044</docId> 
+			<numCuenta>999990000000</numCuenta> 
+         </BeneficiarioExistente>
+         <Movimiento>
+            <numCuenta>777778888888</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-02-04</fecha>
+            <monto>150000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777778888888</numCuenta>
+            <tipoMovimiento>retiroCH</tipoMovimiento>
+            <fecha>2018-02-04</fecha>
+            <monto>-100000</monto>  
+			<descripcion>Banco Nacional</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777778888888</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-02-04</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777778888888</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-02-04</fecha>
+            <monto>200000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>888889999999</numCuenta>
+            <tipoMovimiento>compras</tipoMovimiento>
+            <fecha>2018-02-04</fecha>
+            <monto>-355000</monto> 
+			<descripcion>Bar La Nave</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>888889999999</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-02-04</fecha>
+            <monto>-41000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>999990000000</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-02-04</fecha>
+            <monto>50000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>999990000000</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-02-04</fecha>
+            <monto>20000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>999990000000</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-02-04</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion> 
+         </Movimiento>
+      </FechaOperacion>
+	  
+	  <FechaOperacion fecha= "2018-02-05" >
+         <Cliente>
+            <fechaNacimiento>1930-12-12</fechaNacimiento>
+            <usuario>carcacyl</usuario>
+            <contrasenia>dlopc</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>20180205</docId>
+            <email>c.lop@gmail.com</email>
+            <telefono1>88852048</telefono1>
+			<telefono2>20459870</telefono2>
+            <nombre>Car Lopez Carvajal</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1924-12-10</fechaNacimiento>
+            <usuario>bblbrrryamorgan</usuario>
+            <contrasenia>bmorgan</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>201802055</docId>
+            <email>b.morg@gmail.com</email>
+            <telefono1>87003214</telefono1>
+			<telefono2>24555505</telefono2>
+            <nombre>Britt Morgan Araya</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1954-02-07</fechaNacimiento>
+            <usuario>jlonanncald</usuario>
+            <contrasenia>jrcr</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>2018020555</docId>
+            <email>j.rcald@gmail@gmail.com</email>
+            <telefono1>82568910</telefono1>
+			<telefono2>24503179</telefono2> 
+            <nombre>Johnn Ruiz Calderon</nombre>
+         </Cliente>
+         <Cuenta>
+            <numCuenta>777788888888</numCuenta>
+            <saldo>258000</saldo>
+            <cliente>20180205</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-02-05</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>888899999999</numCuenta>
+            <saldo>380000</saldo>
+            <cliente>201802055</cliente>
+            <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
+            <fechaCreacion>2018-02-05</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>999900000000</numCuenta>
+            <saldo>3589000</saldo>
+            <cliente>2018020555</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-02-05</fechaCreacion>
+         </Cuenta>
+         <BeneficiarioNuevo>
+            <nombre>Arleke Jimenez Solano</nombre>
+            <parentesco>H</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>1267878892600</docId>
+            <email>a.jim@gmail.com</email>
+            <telefono1>60138525</telefono1>
+			<telefono2>27410505</telefono2>
+			<numCuenta>777788888888</numCuenta>
+            <fechaNacimiento>1990-07-31</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>P</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>2018020555</docId> 
+			<numCuenta>777788888888</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>Mam Cruz Gamboa</nombre>
+            <parentesco>D</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>627889896786787</docId>
+            <email>m.cruz@gmail.com</email>
+            <telefono1>87515806</telefono1>
+			<telefono2>24930520</telefono2>
+			<numCuenta>888899999999</numCuenta>
+            <fechaNacimiento>2006-05-06</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>20180205</docId> 
+			<numCuenta>888899999999</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>Mimiml Calderon Meza</nombre>
+            <parentesco>M</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>744400004</docId>
+            <email>m.cal@gmail.com</email>
+            <telefono1>62406580</telefono1>
+			<telefono2>24503179</telefono2>
+			<numCuenta>999900000000</numCuenta>
+            <fechaNacimiento>1997-10-12</fechaNacimiento>
+         </BeneficiarioNuevo>
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>201802055</docId> 
+			<numCuenta>999900000000</numCuenta> 
+         </BeneficiarioExistente>
+         <Movimiento>
+            <numCuenta>777788888888</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-02-05</fecha>
+            <monto>150000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777788888888</numCuenta>
+            <tipoMovimiento>retiroCH</tipoMovimiento>
+            <fecha>2018-02-05</fecha>
+            <monto>-100000</monto>  
+			<descripcion>Banco Nacional</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777788888888</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-02-05</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777788888888</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-02-05</fecha>
+            <monto>200000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>888899999999</numCuenta>
+            <tipoMovimiento>compras</tipoMovimiento>
+            <fecha>2018-02-05</fecha>
+            <monto>-355000</monto> 
+			<descripcion>Bar La Nave</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>888899999999</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-02-05</fecha>
+            <monto>-41000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>999900000000</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-02-05</fecha>
+            <monto>50000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>999900000000</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-02-05</fecha>
+            <monto>20000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>999900000000</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-02-05</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion> 
+         </Movimiento>
+      </FechaOperacion>
+	  
 	  <FechaOperacion fecha= "2018-02-06" >
          <Cliente>
             <fechaNacimiento>1930-12-12</fechaNacimiento>
@@ -6077,21 +6635,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180206</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-06</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>555566666666</numCuenta>
             <saldo>380000</saldo>
             <cliente>201802066</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-06</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>666677777777</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018020666</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-06</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Arl Jimenez Solano</nombre>
@@ -6263,21 +6821,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180210</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-10</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>555666666666</numCuenta>
             <saldo>380000</saldo>
             <cliente>201802100</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-10</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>666777777777</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018021000</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-10</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Arka Jimenez Solano</nombre>
@@ -6449,21 +7007,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180214</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-14</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>5556666666666</numCuenta>
             <saldo>380000</saldo>
             <cliente>201802144</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-14</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>6667777777777</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018021444</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-14</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Arka Jimenez Solano</nombre>
@@ -6635,21 +7193,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180218</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-18</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>5566666666666</numCuenta>
             <saldo>380000</saldo>
             <cliente>201802188</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-18</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>6677777777777</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018021888</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-18</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Ara Jimenez Solano</nombre>
@@ -6821,21 +7379,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180222</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-22</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>5666666666666</numCuenta>
             <saldo>380000</saldo>
             <cliente>201802222</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-22</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>6777777777777</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018022222</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-22</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Ana Jimenez Solano</nombre>
@@ -7007,21 +7565,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180226</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-26</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>888888888888</numCuenta>
             <saldo>380000</saldo>
             <cliente>201802266</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-26</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>9999999999999</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018022666</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-26</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>Y Jimenez Solano</nombre>
@@ -7193,21 +7751,21 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <saldo>258000</saldo>
             <cliente>20180228</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-28</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>888888888889</numCuenta>
             <saldo>380000</saldo>
             <cliente>201802288</cliente>
             <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-28</fechaCreacion>
          </Cuenta>
 		 <Cuenta>
             <numCuenta>9999999999990</numCuenta>
             <saldo>3589000</saldo>
             <cliente>2018022888</cliente>
             <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
-            <fechaCreacion>2018-01-02</fechaCreacion>
+            <fechaCreacion>2018-02-28</fechaCreacion>
          </Cuenta>
          <BeneficiarioNuevo>
             <nombre>W Jimenez Solano</nombre>
@@ -7335,6 +7893,936 @@ declare @info xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <numCuenta>9999999999990</numCuenta>
             <tipoMovimiento>retiroCA</tipoMovimiento>
             <fecha>2018-02-28</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion> 
+         </Movimiento>
+      </FechaOperacion>
+	  
+	  <FechaOperacion fecha= "2018-03-01" >
+         <Cliente>
+            <fechaNacimiento>1930-12-12</fechaNacimiento>
+            <usuario>hl</usuario>
+            <contrasenia>dlopc</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>20180311</docId>
+            <email>c.lop@gmail.com</email>
+            <telefono1>88852048</telefono1>
+			<telefono2>20459870</telefono2>
+            <nombre>K Lopez Carvajal</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1924-12-10</fechaNacimiento>
+            <usuario>lmorgan</usuario>
+            <contrasenia>bmorgan</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>201803011</docId>
+            <email>b.morg@gmail.com</email>
+            <telefono1>87003214</telefono1>
+			<telefono2>24555505</telefono2>
+            <nombre>J Morgan Araya</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1954-02-07</fechaNacimiento>
+            <usuario>gcald</usuario>
+            <contrasenia>jrcr</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>2018030111</docId>
+            <email>j.rcald@gmail@gmail.com</email>
+            <telefono1>82568910</telefono1>
+			<telefono2>24503179</telefono2> 
+            <nombre>T Ruiz Calderon</nombre>
+         </Cliente>
+         <Cuenta>
+            <numCuenta>777777777788</numCuenta>
+            <saldo>258000</saldo>
+            <cliente>20180311</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-01</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>888888888899</numCuenta>
+            <saldo>380000</saldo>
+            <cliente>201803011</cliente>
+            <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-01</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>9999999999900</numCuenta>
+            <saldo>3589000</saldo>
+            <cliente>2018030111</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-01</fechaCreacion>
+         </Cuenta>
+         <BeneficiarioNuevo>
+            <nombre>W Jimenez Solano</nombre>
+            <parentesco>H</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>12346556789</docId>
+            <email>a.jim@gmail.com</email>
+            <telefono1>60138525</telefono1>
+			<telefono2>27410505</telefono2>
+			<numCuenta>777777777788</numCuenta>
+            <fechaNacimiento>1990-07-31</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>P</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>2018030111</docId> 
+			<numCuenta>777777777788</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>O Cruz Gamboa</nombre>
+            <parentesco>D</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>62365456789</docId>
+            <email>m.cruz@gmail.com</email>
+            <telefono1>87515806</telefono1>
+			<telefono2>24930520</telefono2>
+			<numCuenta>888888888899</numCuenta>
+            <fechaNacimiento>2006-05-06</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>20180311</docId> 
+			<numCuenta>888888888899</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>V Calderon Meza</nombre>
+            <parentesco>M</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>72345678789</docId>
+            <email>m.cal@gmail.com</email>
+            <telefono1>62406580</telefono1>
+			<telefono2>24503179</telefono2>
+			<numCuenta>9999999999900</numCuenta>
+            <fechaNacimiento>1997-10-12</fechaNacimiento>
+         </BeneficiarioNuevo>
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>201803011</docId> 
+			<numCuenta>9999999999900</numCuenta> 
+         </BeneficiarioExistente>
+         <Movimiento>
+            <numCuenta>777777777788</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-01</fecha>
+            <monto>150000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777777788</numCuenta>
+            <tipoMovimiento>retiroCH</tipoMovimiento>
+            <fecha>2018-03-01</fecha>
+            <monto>-100000</monto>  
+			<descripcion>Banco Nacional</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777777788</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-01</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777777788</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-01</fecha>
+            <monto>200000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>888888888899</numCuenta>
+            <tipoMovimiento>compras</tipoMovimiento>
+            <fecha>2018-03-01</fecha>
+            <monto>-355000</monto> 
+			<descripcion>Bar La Nave</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>888888888899</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-01</fecha>
+            <monto>-41000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>9999999999900</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-01</fecha>
+            <monto>50000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>9999999999900</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-01</fecha>
+            <monto>20000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>9999999999900</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-01</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion> 
+         </Movimiento>
+      </FechaOperacion>
+	  
+	  <FechaOperacion fecha= "2018-03-02" >
+         <Cliente>
+            <fechaNacimiento>1930-12-12</fechaNacimiento>
+            <usuario>hl</usuario>
+            <contrasenia>dlopc</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>20180302</docId>
+            <email>c.lop@gmail.com</email>
+            <telefono1>88852048</telefono1>
+			<telefono2>20459870</telefono2>
+            <nombre>K Lopez Carvajal</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1924-12-10</fechaNacimiento>
+            <usuario>lmorgan</usuario>
+            <contrasenia>bmorgan</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>201803022</docId>
+            <email>b.morg@gmail.com</email>
+            <telefono1>87003214</telefono1>
+			<telefono2>24555505</telefono2>
+            <nombre>J Morgan Araya</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1954-02-07</fechaNacimiento>
+            <usuario>gcald</usuario>
+            <contrasenia>jrcr</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>2018030222</docId>
+            <email>j.rcald@gmail@gmail.com</email>
+            <telefono1>82568910</telefono1>
+			<telefono2>24503179</telefono2> 
+            <nombre>T Ruiz Calderon</nombre>
+         </Cliente>
+         <Cuenta>
+            <numCuenta>777777777888</numCuenta>
+            <saldo>258000</saldo>
+            <cliente>20180302</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-02</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>888888888999</numCuenta>
+            <saldo>380000</saldo>
+            <cliente>201803022</cliente>
+            <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-02</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>9999999999000</numCuenta>
+            <saldo>3589000</saldo>
+            <cliente>2018030222</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-02</fechaCreacion>
+         </Cuenta>
+         <BeneficiarioNuevo>
+            <nombre>W Jimenez Solano</nombre>
+            <parentesco>H</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>123462556789</docId>
+            <email>a.jim@gmail.com</email>
+            <telefono1>60138525</telefono1>
+			<telefono2>27410505</telefono2>
+			<numCuenta>777777777888</numCuenta>
+            <fechaNacimiento>1990-07-31</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>P</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>2018030222</docId> 
+			<numCuenta>777777777888</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>O Cruz Gamboa</nombre>
+            <parentesco>D</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>6236547656789</docId>
+            <email>m.cruz@gmail.com</email>
+            <telefono1>87515806</telefono1>
+			<telefono2>24930520</telefono2>
+			<numCuenta>888888888999</numCuenta>
+            <fechaNacimiento>2006-05-06</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>20180302</docId> 
+			<numCuenta>888888888999</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>V Calderon Meza</nombre>
+            <parentesco>M</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>7235445678789</docId>
+            <email>m.cal@gmail.com</email>
+            <telefono1>62406580</telefono1>
+			<telefono2>24503179</telefono2>
+			<numCuenta>9999999999000</numCuenta>
+            <fechaNacimiento>1997-10-12</fechaNacimiento>
+         </BeneficiarioNuevo>
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>201803022</docId> 
+			<numCuenta>9999999999000</numCuenta> 
+         </BeneficiarioExistente>
+         <Movimiento>
+            <numCuenta>777777777888</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-02</fecha>
+            <monto>150000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777777888</numCuenta>
+            <tipoMovimiento>retiroCH</tipoMovimiento>
+            <fecha>2018-03-02</fecha>
+            <monto>-100000</monto>  
+			<descripcion>Banco Nacional</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777777888</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-02</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777777888</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-02</fecha>
+            <monto>200000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>888888888999</numCuenta>
+            <tipoMovimiento>compras</tipoMovimiento>
+            <fecha>2018-03-02</fecha>
+            <monto>-355000</monto> 
+			<descripcion>Bar La Nave</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>888888888999</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-02</fecha>
+            <monto>-41000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>9999999999000</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-02</fecha>
+            <monto>50000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>9999999999000</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-02</fecha>
+            <monto>20000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>9999999999000</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-02</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion> 
+         </Movimiento>
+      </FechaOperacion>
+	  
+	  <FechaOperacion fecha= "2018-03-03" >
+         <Cliente>
+            <fechaNacimiento>1930-12-12</fechaNacimiento>
+            <usuario>hl</usuario>
+            <contrasenia>dlopc</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>20180303</docId>
+            <email>c.lop@gmail.com</email>
+            <telefono1>88852048</telefono1>
+			<telefono2>20459870</telefono2>
+            <nombre>K Lopez Carvajal</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1924-12-10</fechaNacimiento>
+            <usuario>lmorgan</usuario>
+            <contrasenia>bmorgan</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>201803033</docId>
+            <email>b.morg@gmail.com</email>
+            <telefono1>87003214</telefono1>
+			<telefono2>24555505</telefono2>
+            <nombre>J Morgan Araya</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1954-02-07</fechaNacimiento>
+            <usuario>gcald</usuario>
+            <contrasenia>jrcr</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>2018030333</docId>
+            <email>j.rcald@gmail@gmail.com</email>
+            <telefono1>82568910</telefono1>
+			<telefono2>24503179</telefono2> 
+            <nombre>T Ruiz Calderon</nombre>
+         </Cliente>
+         <Cuenta>
+            <numCuenta>777777778888</numCuenta>
+            <saldo>258000</saldo>
+            <cliente>20180303</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-03</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>888888889999</numCuenta>
+            <saldo>380000</saldo>
+            <cliente>201803033</cliente>
+            <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-03</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>9999999990000</numCuenta>
+            <saldo>3589000</saldo>
+            <cliente>2018030333</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-03</fechaCreacion>
+         </Cuenta>
+         <BeneficiarioNuevo>
+            <nombre>U Jimenez Solano</nombre>
+            <parentesco>H</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>12340009</docId>
+            <email>a.jim@gmail.com</email>
+            <telefono1>60138525</telefono1>
+			<telefono2>27410505</telefono2>
+			<numCuenta>777777778888</numCuenta>
+            <fechaNacimiento>1990-07-31</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>P</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>2018030333</docId> 
+			<numCuenta>777777778888</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>C Cruz Gamboa</nombre>
+            <parentesco>D</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>62300006789</docId>
+            <email>m.cruz@gmail.com</email>
+            <telefono1>87515806</telefono1>
+			<telefono2>24930520</telefono2>
+			<numCuenta>888888889999</numCuenta>
+            <fechaNacimiento>2006-05-06</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>20180303</docId> 
+			<numCuenta>888888889999</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>NJ Calderon Meza</nombre>
+            <parentesco>M</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>723000089</docId>
+            <email>m.cal@gmail.com</email>
+            <telefono1>62406580</telefono1>
+			<telefono2>24503179</telefono2>
+			<numCuenta>9999999990000</numCuenta>
+            <fechaNacimiento>1997-10-12</fechaNacimiento>
+         </BeneficiarioNuevo>
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>201803033</docId> 
+			<numCuenta>9999999990000</numCuenta> 
+         </BeneficiarioExistente>
+         <Movimiento>
+            <numCuenta>777777778888</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-03</fecha>
+            <monto>150000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777778888</numCuenta>
+            <tipoMovimiento>retiroCH</tipoMovimiento>
+            <fecha>2018-03-03</fecha>
+            <monto>-100000</monto>  
+			<descripcion>Banco Nacional</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777778888</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-03</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777778888</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-03</fecha>
+            <monto>200000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>888888889999</numCuenta>
+            <tipoMovimiento>compras</tipoMovimiento>
+            <fecha>2018-03-03</fecha>
+            <monto>-355000</monto> 
+			<descripcion>Bar La Nave</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>888888889999</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-03</fecha>
+            <monto>-41000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>9999999990000</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-03</fecha>
+            <monto>50000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>9999999990000</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-03</fecha>
+            <monto>20000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>9999999990000</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-03</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion> 
+         </Movimiento>
+      </FechaOperacion>
+	  
+	  <FechaOperacion fecha= "2018-03-04" >
+         <Cliente>
+            <fechaNacimiento>1930-12-12</fechaNacimiento>
+            <usuario>hl</usuario>
+            <contrasenia>dlopc</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>20180304</docId>
+            <email>c.lop@gmail.com</email>
+            <telefono1>88852048</telefono1>
+			<telefono2>20459870</telefono2>
+            <nombre>K Lopez Carvajal</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1924-12-10</fechaNacimiento>
+            <usuario>lmorgan</usuario>
+            <contrasenia>bmorgan</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>201803044</docId>
+            <email>b.morg@gmail.com</email>
+            <telefono1>87003214</telefono1>
+			<telefono2>24555505</telefono2>
+            <nombre>J Morgan Araya</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1954-02-07</fechaNacimiento>
+            <usuario>gcald</usuario>
+            <contrasenia>jrcr</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>2018030444</docId>
+            <email>j.rcald@gmail@gmail.com</email>
+            <telefono1>82568910</telefono1>
+			<telefono2>24503179</telefono2> 
+            <nombre>T Ruiz Calderon</nombre>
+         </Cliente>
+         <Cuenta>
+            <numCuenta>777777788888</numCuenta>
+            <saldo>258000</saldo>
+            <cliente>20180304</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-04</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>888888899999</numCuenta>
+            <saldo>380000</saldo>
+            <cliente>201803044</cliente>
+            <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-04</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>9999999900000</numCuenta>
+            <saldo>3589000</saldo>
+            <cliente>2018030444</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-04</fechaCreacion>
+         </Cuenta>
+         <BeneficiarioNuevo>
+            <nombre>U Jimenez Solano</nombre>
+            <parentesco>H</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>10002340009</docId>
+            <email>a.jim@gmail.com</email>
+            <telefono1>60138525</telefono1>
+			<telefono2>27410505</telefono2>
+			<numCuenta>777777788888</numCuenta>
+            <fechaNacimiento>1990-07-31</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>P</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>2018030444</docId> 
+			<numCuenta>777777788888</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>C Cruz Gamboa</nombre>
+            <parentesco>D</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>6230000678900</docId>
+            <email>m.cruz@gmail.com</email>
+            <telefono1>87515806</telefono1>
+			<telefono2>24930520</telefono2>
+			<numCuenta>888888899999</numCuenta>
+            <fechaNacimiento>2006-05-06</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>20180304</docId> 
+			<numCuenta>888888899999</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>NJ Calderon Meza</nombre>
+            <parentesco>M</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>72543000089</docId>
+            <email>m.cal@gmail.com</email>
+            <telefono1>62406580</telefono1>
+			<telefono2>24503179</telefono2>
+			<numCuenta>9999999900000</numCuenta>
+            <fechaNacimiento>1997-10-12</fechaNacimiento>
+         </BeneficiarioNuevo>
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>201803044</docId> 
+			<numCuenta>9999999900000</numCuenta> 
+         </BeneficiarioExistente>
+         <Movimiento>
+            <numCuenta>777777788888</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-04</fecha>
+            <monto>150000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777788888</numCuenta>
+            <tipoMovimiento>retiroCH</tipoMovimiento>
+            <fecha>2018-03-04</fecha>
+            <monto>-100000</monto>  
+			<descripcion>Banco Nacional</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777788888</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-04</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>777777788888</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-04</fecha>
+            <monto>200000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>888888899999</numCuenta>
+            <tipoMovimiento>compras</tipoMovimiento>
+            <fecha>2018-03-04</fecha>
+            <monto>-355000</monto> 
+			<descripcion>Bar La Nave</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>888888899999</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-04</fecha>
+            <monto>-41000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>9999999900000</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-04</fecha>
+            <monto>50000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>9999999900000</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-04</fecha>
+            <monto>20000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>9999999900000</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-04</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion> 
+         </Movimiento>
+      </FechaOperacion>
+	  
+	  <FechaOperacion fecha= "2018-03-05" >
+         <Cliente>
+            <fechaNacimiento>1930-12-12</fechaNacimiento>
+            <usuario>hl</usuario>
+            <contrasenia>dlopc</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>20180305</docId>
+            <email>c.lop@gmail.com</email>
+            <telefono1>88852048</telefono1>
+			<telefono2>20459870</telefono2>
+            <nombre>K Lopez Carvajal</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1924-12-10</fechaNacimiento>
+            <usuario>jjjmorgan</usuario>
+            <contrasenia>bmorgan</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>201803055</docId>
+            <email>b.morg@gmail.com</email>
+            <telefono1>87003214</telefono1>
+			<telefono2>24555505</telefono2>
+            <nombre>JJJ Morgan Araya</nombre>
+         </Cliente>
+		 <Cliente>
+            <fechaNacimiento>1954-02-07</fechaNacimiento>
+            <usuario>gcald</usuario>
+            <contrasenia>jrcr</contrasenia>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>2018030555</docId>
+            <email>j.rcald@gmail@gmail.com</email>
+            <telefono1>82568910</telefono1>
+			<telefono2>24503179</telefono2> 
+            <nombre>T Ruiz Calderon</nombre>
+         </Cliente>
+         <Cuenta>
+            <numCuenta>778888888888</numCuenta>
+            <saldo>258000</saldo>
+            <cliente>20180305</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-05</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>889999999999</numCuenta>
+            <saldo>380000</saldo>
+            <cliente>201803055</cliente>
+            <tipoCuentaAhorro>Clase Media</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-05</fechaCreacion>
+         </Cuenta>
+		 <Cuenta>
+            <numCuenta>990000000000</numCuenta>
+            <saldo>3589000</saldo>
+            <cliente>2018030555</cliente>
+            <tipoCuentaAhorro>Clase Opulenta</tipoCuentaAhorro>
+            <fechaCreacion>2018-03-05</fechaCreacion>
+         </Cuenta>
+         <BeneficiarioNuevo>
+            <nombre>U Jimenez Solano</nombre>
+            <parentesco>H</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Nacional</tipoDocId>
+            <docId>10002340006789</docId>
+            <email>a.jim@gmail.com</email>
+            <telefono1>60138525</telefono1>
+			<telefono2>27410505</telefono2>
+			<numCuenta>778888888888</numCuenta>
+            <fechaNacimiento>1990-07-31</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>P</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>2018030555</docId> 
+			<numCuenta>778888888888</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>CC Cruz Gamboa</nombre>
+            <parentesco>D</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>623000067890099</docId>
+            <email>m.cruz@gmail.com</email>
+            <telefono1>87515806</telefono1>
+			<telefono2>24930520</telefono2>
+			<numCuenta>889999999999</numCuenta>
+            <fechaNacimiento>2006-05-06</fechaNacimiento>
+         </BeneficiarioNuevo> 
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>20180305</docId> 
+			<numCuenta>889999999999</numCuenta> 
+         </BeneficiarioExistente>
+		 <BeneficiarioNuevo>
+            <nombre>NJY Calderon Meza</nombre>
+            <parentesco>M</parentesco>
+            <porcentaje>75</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/>
+            <tipoDocId>Cedula Extranjera</tipoDocId>
+            <docId>725430000891234</docId>
+            <email>m.cal@gmail.com</email>
+            <telefono1>62406580</telefono1>
+			<telefono2>24503179</telefono2>
+			<numCuenta>990000000000</numCuenta>
+            <fechaNacimiento>1997-10-12</fechaNacimiento>
+         </BeneficiarioNuevo>
+		 <BeneficiarioExistente> 
+            <parentesco>B</parentesco>
+            <porcentaje>25</porcentaje> 
+            <activo>1</activo>
+            <fechaDesactivo/> 
+            <docId>201803055</docId> 
+			<numCuenta>990000000000</numCuenta> 
+         </BeneficiarioExistente>
+         <Movimiento>
+            <numCuenta>778888888888</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-05</fecha>
+            <monto>150000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>778888888888</numCuenta>
+            <tipoMovimiento>retiroCH</tipoMovimiento>
+            <fecha>2018-03-05</fecha>
+            <monto>-100000</monto>  
+			<descripcion>Banco Nacional</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>778888888888</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-05</fecha>
+            <monto>-30000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>778888888888</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-05</fecha>
+            <monto>200000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>889999999999</numCuenta>
+            <tipoMovimiento>compras</tipoMovimiento>
+            <fecha>2018-03-05</fecha>
+            <monto>-355000</monto> 
+			<descripcion>Bar La Nave</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>889999999999</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-05</fecha>
+            <monto>-41000</monto> 
+			<descripcion>ATM07</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>990000000000</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-05</fecha>
+            <monto>50000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>990000000000</numCuenta>
+            <tipoMovimiento>deposito</tipoMovimiento>
+            <fecha>2018-03-05</fecha>
+            <monto>20000</monto> 
+			<descripcion>TGH456MC</descripcion>
+         </Movimiento>
+		 <Movimiento>
+            <numCuenta>990000000000</numCuenta>
+            <tipoMovimiento>retiroCA</tipoMovimiento>
+            <fecha>2018-03-05</fecha>
             <monto>-30000</monto> 
 			<descripcion>ATM07</descripcion> 
          </Movimiento>

@@ -1,4 +1,5 @@
-﻿delete Beneficiario
+﻿set nocount on;
+delete Beneficiario
 delete Movimiento
 delete EstadoDeCuenta
 delete CuentaAhorro
