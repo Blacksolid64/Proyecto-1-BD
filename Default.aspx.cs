@@ -21,6 +21,7 @@ namespace WebApplication4
             if (IsPostBack)
             {
                 SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["Base_de_Datos_1ConnectionString"].ConnectionString);
+                //SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionStringJoshua"].ConnectionString);
                 connection.Open();
                 string query = "select id from Cliente where username='" + txtUsername.Text + "' and password='" + txtPassword.Text + "'";
                 SqlCommand command = new SqlCommand(query, connection);
@@ -31,6 +32,7 @@ namespace WebApplication4
                     reader.Close();
                     Session["UserName"] = new SqlCommand("select top 1 username from Cliente where id=" + Session["UserID"], connection).ExecuteScalar().ToString();
                     Session["CuentaID"] = new SqlCommand("select top 1 id from CuentaAhorro where idCliente=" + Session["UserID"], connection).ExecuteScalar().ToString();
+                    //Response.Redirect("EstadosDeCuenta.aspx");
                     Response.Redirect("Contact.aspx");
                 }
                 else

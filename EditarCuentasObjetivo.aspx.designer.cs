@@ -10,7 +10,7 @@
 namespace WebApplication4 {
     
     
-    public partial class EditarCuentasObjetivo {
+    public partial class _EditarCuentasObjetivo {
         
         /// <summary>
         /// Control SqlDataSource1.

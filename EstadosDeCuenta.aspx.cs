@@ -13,29 +13,11 @@ namespace WebApplication4
         {
 
         }
-        protected void volver(object sender, EventArgs e)
-        {
-            Response.Redirect("Contact");
-        }
 
-        protected void ListView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Movimientos.aspx");
-        }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
-        {
-
+            Response.Redirect("Contact.aspx");
         }
 
         protected void Row_Selected(object sender, EventArgs e)
@@ -50,8 +32,6 @@ namespace WebApplication4
         {
 
         }
-
-       
     }
     
 }

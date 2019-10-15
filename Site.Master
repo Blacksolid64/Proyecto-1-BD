@@ -47,7 +47,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Primera tarea programada - Bases de datos 1 - Grupo 1 - Esteban Cruz</a>
+                    <a class="navbar-brand" runat="server" href="~/">Segunda tarea programada - Bases de datos 1 - Grupo 1 - Esteban Cruz</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">

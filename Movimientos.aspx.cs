@@ -7,18 +7,23 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication4
 {
-    public partial class Movimientos : System.Web.UI.Page
+    public partial class _Movimientos : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
            
         }
 
-      
+     
 
-        protected void volver(object sender, EventArgs e)
+        protected void Consultar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Contact");
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("EstadosDeCuenta");
         }
     }
     
