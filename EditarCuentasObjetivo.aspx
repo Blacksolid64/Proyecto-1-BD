@@ -10,9 +10,9 @@
                 <asp:SessionParameter Name="idCuenta" SessionField="CuentaID" Type="Int32" />
             </DeleteParameters>
             <InsertParameters>
-                <asp:Parameter Name="idCuenta" Type="Int32" />
-                <asp:Parameter Name="descripcion" Type="String" />
-                <asp:Parameter Name="cantMensual" Type="Decimal" />
+                <asp:SessionParameter Name="idCuenta" SessionField="CuentaID" Type="Int32" />
+                <asp:ControlParameter Name="descripcion" Type="String" ControlID="Textbox1"/>
+                <asp:ControlParameter Name="cantMensual" Type="Decimal" ControlID="Textbox2" />
             </InsertParameters>
             <SelectParameters>
                 <asp:SessionParameter Name="idCuenta" SessionField="CuentaID" Type="Int32" />
@@ -29,6 +29,13 @@
                 <asp:BoundField DataField="descripcion" HeaderText="descripcion" SortExpression="descripcion" />
             </Columns>
         </asp:GridView>
+        
+        Descripcion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <br />
+        Cantidad Mensual <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <br />
+        <br />
         
         <asp:Button ID="Button1" runat="server" Text="Volver" OnClientClick="volver" OnClick="Button1_Click"  />
 
