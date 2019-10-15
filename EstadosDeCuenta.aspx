@@ -9,11 +9,9 @@
                 <asp:SessionParameter Name="idCuenta" SessionField="CuentaID" Type="Int32" />
             </SelectParameters>
             </asp:SqlDataSource>
-            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="SqlDataSource1" Height="220px" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" Width="560px" 
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="SqlDataSource1" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" Width="600px" 
         BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3"  >
                 <Columns>
-                    <asp:BoundField DataField="id" HeaderText="id" Visible ="false" InsertVisible="False" ReadOnly="True" SortExpression="id" />
-                    <asp:BoundField DataField="idCuenta" HeaderText="idCuenta" Visible = "False" SortExpression="idCuenta" />
                     <asp:BoundField DataField="fechaInicio" HeaderText="Fecha Inicio" SortExpression="fechaInicio" />
                     <asp:BoundField DataField="fechaFinal" HeaderText="Fecha Final" SortExpression="fechaFinal" />
                     <asp:BoundField DataField="saldoInicial" HeaderText="Saldo Inicial" SortExpression="saldoInicial" />
