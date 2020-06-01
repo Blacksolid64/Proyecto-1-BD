@@ -28,9 +28,10 @@ namespace WebApplication4
                 if (reader.Read())
                 {
                     Session["UserID"] = reader.GetValue(0);
+                    Session["IDpropiedad"] = 4;
                     reader.Close();
                     Session["UserName"] = new SqlCommand("select top 1 usuario from Usuario where id=" + Session["UserID"], connection).ExecuteScalar().ToString();
-                    Response.Redirect("Contact.aspx");
+                    Response.Redirect("Propiedades.aspx");
                 }
                 else
                     errorxd.Text="*Error, datos no coincidentes";
