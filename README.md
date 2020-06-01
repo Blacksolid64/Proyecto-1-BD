@@ -1,2 +1,2 @@
-# Proyecto3BD
-https://basedatos1itcr.blogspot.com/search/label/Bit%C3%A1cora%20tarea%203
+# Proyecto1BD
+https://basedatos1itcr.blogspot.com/
