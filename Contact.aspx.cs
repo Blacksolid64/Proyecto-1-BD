@@ -21,7 +21,7 @@ namespace WebApplication4
                 Response.Redirect("Default.aspx");
             else
             {
-                JAJAPRUEBA.Text = Session["UserName"].ToString();
+               
             }
             actualizarRotulitoLlamativo();
 
