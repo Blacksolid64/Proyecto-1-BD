@@ -32,6 +32,11 @@ namespace WebApplication4
         {
 
         }
+
+        protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
+        {
+
+        }
     }
     
 }

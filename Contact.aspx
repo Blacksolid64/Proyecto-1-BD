@@ -3,11 +3,9 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2>
         <%: Title %>
-        Bienvenido <asp:Label ID="JAJAPRUEBA" runat="server" Text="Pablito:3"></asp:Label>
-    </h2>
+        Bienvenido</h2>
     <h3>
-        Beneficiarios 
-        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SELECT [id], [nombre] FROM [Parentesco]" OnSelecting="SqlDataSource2_Selecting"></asp:SqlDataSource>
+        Propietarios
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" OnInserted="SqlDataSource1_Inserted" OnDeleted="SqlDataSource1_Deleted" OnUpdated="SqlDataSource1_Updated" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SP_selectBeneficiarios" DeleteCommand="SP_borrarBeneficiario" InsertCommand="SP_insertarBeneficiario" UpdateCommand="SP_actualizarBeneficiario" CancelSelectOnNullParameter="False" DeleteCommandType="StoredProcedure" InsertCommandType="StoredProcedure" SelectCommandType="StoredProcedure" UpdateCommandType="StoredProcedure">
             <DeleteParameters>
                 <asp:Parameter Name="id" />
