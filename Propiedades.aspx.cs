@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication4
 {
-    public partial class _EstadosDeCuenta : System.Web.UI.Page
+    public partial class _Propiedades : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
