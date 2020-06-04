@@ -1,9 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="Movimientos.aspx.cs" Inherits="WebApplication4._Movimientos" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="Busqueda.aspx.cs" Inherits="WebApplication4._Movimientos" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>Movimientos<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SP_MostrarMovimientos" SelectCommandType="StoredProcedure" UpdateCommand="SP_BuscarMovimientos" UpdateCommandType="StoredProcedure" >
+        <h1>Búsqueda por Propietario<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Base_de_Datos_1ConnectionString %>" SelectCommand="SP_MostrarMovimientos" SelectCommandType="StoredProcedure" UpdateCommand="SP_BuscarMovimientos" UpdateCommandType="StoredProcedure" >
             <SelectParameters>
                 <asp:SessionParameter Name="idCuenta" SessionField="CuentaID" Type="Int32" />
                 <asp:SessionParameter Name="idestadocuenta" SessionField="IDEstado" Type="Int32" />

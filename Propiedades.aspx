@@ -13,9 +13,6 @@
             <asp:Parameter Name="direccion" Type="String" />
             <asp:Parameter Name="Activo" Type="Boolean" />
         </InsertParameters>
-        <SelectParameters>
-            <asp:SessionParameter Name="Id" SessionField="IDpropiedad" Type="Int32" />
-        </SelectParameters>
         <UpdateParameters>
             <asp:Parameter Name="Id" Type="Int32" />
             <asp:Parameter Name="NumFinca" Type="Int32" />
@@ -25,13 +22,12 @@
         </UpdateParameters>
             </asp:SqlDataSource>
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" Width="600px" 
-        BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" DataKeyNames="Id"  >
+        BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3"  >
                 <Columns>
-                    <asp:BoundField DataField="Id" HeaderText="Id" SortExpression="Id" InsertVisible="False" ReadOnly="True" />
+                    <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
                     <asp:BoundField DataField="NumFinca" HeaderText="NumFinca" SortExpression="NumFinca" />
                     <asp:BoundField DataField="valor" HeaderText="valor" SortExpression="valor" />
                     <asp:BoundField DataField="direccion" HeaderText="direccion" SortExpression="direccion" />
-                    <asp:CheckBoxField DataField="Activo" HeaderText="Activo" SortExpression="Activo" />
                 </Columns>
         <FooterStyle BackColor="White" ForeColor="#000066" />
         <HeaderStyle BackColor="#006699" Font-Bold="true" ForeColor="White" />

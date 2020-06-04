@@ -26,7 +26,7 @@ namespace WebApplication4
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Movimientos.aspx");
+            Response.Redirect("Busqueda.aspx");
         }
 
         protected void Button3_Click(object sender, EventArgs e)
