@@ -18,7 +18,6 @@
             <asp:Parameter Name="NumFinca" Type="Int32" />
             <asp:Parameter Name="valor" Type="Decimal" />
             <asp:Parameter Name="direccion" Type="String" />
-            <asp:Parameter Name="Activo" Type="Boolean" />
         </UpdateParameters>
             </asp:SqlDataSource>
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" Width="600px" 

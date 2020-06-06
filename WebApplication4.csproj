@@ -106,6 +106,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="BusquedaPorPropiedadDeUsuario.aspx" />
+    <Content Include="BusquedaPorUsuarioDePropiedad.aspx" />
+    <Content Include="BusquedaPorPropiedad.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -125,7 +128,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Propiedades.aspx" />
-    <Content Include="Busqueda.aspx" />
+    <Content Include="BusquedaPorPropietario.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -142,6 +145,27 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="BusquedaPorPropiedadDeUsuario.aspx.cs">
+      <DependentUpon>BusquedaPorPropiedadDeUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaPorPropiedadDeUsuario.aspx.designer.cs">
+      <DependentUpon>BusquedaPorPropiedadDeUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaPorUsuarioDePropiedad.aspx.cs">
+      <DependentUpon>BusquedaPorUsuarioDePropiedad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaPorUsuarioDePropiedad.aspx.designer.cs">
+      <DependentUpon>BusquedaPorUsuarioDePropiedad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaPorPropiedad.aspx.cs">
+      <DependentUpon>BusquedaPorPropiedad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaPorPropiedad.aspx.designer.cs">
+      <DependentUpon>BusquedaPorPropiedad.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -159,12 +183,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Busqueda.aspx.cs">
-      <DependentUpon>Busqueda.aspx</DependentUpon>
+    <Compile Include="BusquedaPorPropietario.aspx.cs">
+      <DependentUpon>BusquedaPorPropietario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Busqueda.aspx.designer.cs">
-      <DependentUpon>Busqueda.aspx</DependentUpon>
+    <Compile Include="BusquedaPorPropietario.aspx.designer.cs">
+      <DependentUpon>BusquedaPorPropietario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
