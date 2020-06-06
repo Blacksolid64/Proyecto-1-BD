@@ -31,17 +31,22 @@ namespace WebApplication4
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("BusquedaPorPropiedad.aspx");
         }
 
         protected void Button4_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("BusquedaPorPropiedadDeUsuario.aspx");
         }
 
         protected void Button5_Click(object sender, EventArgs e)
         {
+            Response.Redirect("BusquedaPorUsuarioDePropiedad.aspx");
+        }
 
+        protected void Button6_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Usuarios.aspx");
         }
     }
 }
