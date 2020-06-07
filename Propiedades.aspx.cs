@@ -31,6 +31,12 @@ namespace WebApplication4
         {
 
         }
+
+        protected void Insert(object sender, EventArgs e)
+        {
+            SqlDataSource1.Insert();
+            Response.Redirect("Propiedades.aspx");
+        }
     }
     
 }

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication4
 {
-    public partial class _Usuarioss : System.Web.UI.Page
+    public partial class _Usuarios : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -30,6 +30,17 @@ namespace WebApplication4
         protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
         {
 
+        }
+
+        protected void Insertar_Click(object sender, EventArgs e)
+        {
+            SqlDataSource1.Insert();
+        }
+
+        protected void Insert(object sender, EventArgs e)
+        {
+            SqlDataSource1.Insert();
+            Response.Redirect("Usuarios.aspx");
         }
     }
     

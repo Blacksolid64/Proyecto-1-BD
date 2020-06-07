@@ -48,5 +48,11 @@ namespace WebApplication4
         {
             Response.Redirect("Usuarios.aspx");
         }
+
+        protected void Insert(object sender, EventArgs e)
+        {
+            SqlDataSource1.Insert();
+            Response.Redirect("Contact.aspx");
+        }
     }
 }
