@@ -127,6 +127,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="ConceptoDeCobroVsPropiedades.aspx" />
+    <Content Include="UsuariosVsPropiedades.aspx" />
+    <Content Include="PropietariosVsPropiedades.aspx" />
     <Content Include="Usuarios.aspx" />
     <Content Include="Propiedades.aspx" />
     <Content Include="BusquedaPorPropietario.aspx" />
@@ -192,6 +195,27 @@
       <DependentUpon>BusquedaPorPropietario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ConceptoDeCobroVsPropiedades.aspx.cs">
+      <DependentUpon>ConceptoDeCobroVsPropiedades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConceptoDeCobroVsPropiedades.aspx.designer.cs">
+      <DependentUpon>ConceptoDeCobroVsPropiedades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsuariosVsPropiedades.aspx.cs">
+      <DependentUpon>UsuariosVsPropiedades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsuariosVsPropiedades.aspx.designer.cs">
+      <DependentUpon>UsuariosVsPropiedades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PropietariosVsPropiedades.aspx.cs">
+      <DependentUpon>PropietariosVsPropiedades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PropietariosVsPropiedades.aspx.designer.cs">
+      <DependentUpon>PropietariosVsPropiedades.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Usuarios.aspx.cs">
       <DependentUpon>Usuarios.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

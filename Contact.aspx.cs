@@ -54,5 +54,20 @@ namespace WebApplication4
             SqlDataSource1.Insert();
             Response.Redirect("Contact.aspx");
         }
+
+        protected void Button7_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("PropietariosVsPropiedades.aspx");
+        }
+
+        protected void Button8_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("UsuariosVsPropiedades.aspx");
+        }
+
+        protected void Button9_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ConceptoDeCobroVsPropiedades.aspx");
+        }
     }
 }
