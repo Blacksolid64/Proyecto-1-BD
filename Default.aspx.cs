@@ -22,15 +22,18 @@ namespace WebApplication4
             {
                 SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["masterConnectionString"].ConnectionString);
                 connection.Open();
-                string query = "select id from Usuario where usuario='" + txtUsername.Text + "' and password='" + txtPassword.Text + "'";
+                string query = "SP_Usuario_Login";
                 SqlCommand command = new SqlCommand(query, connection);
-                SqlDataReader reader = command.ExecuteReader();
-                if (reader.Read())
+                command.CommandType = System.Data.CommandType.StoredProcedure;
+                command.Parameters.AddWithValue("@usuario", txtUsername.Text);
+                command.Parameters.AddWithValue("@password", txtPassword.Text);
+                int esValido = (Int32)command.ExecuteScalar();
+
+                if (esValido == 1)
                 {
-                    Session["UserID"] = reader.GetValue(0);
+                    Session["UserID"] = 0;
                     Session["IDpropiedad"] = 4;
-                    reader.Close();
-                    Session["UserName"] = new SqlCommand("select top 1 usuario from Usuario where id=" + Session["UserID"], connection).ExecuteScalar().ToString();
+                    Session["UserName"] = "Jaa";
                     Response.Redirect("Contact.aspx");
                 }
                 else
