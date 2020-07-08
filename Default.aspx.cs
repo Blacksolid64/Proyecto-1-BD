@@ -25,20 +25,30 @@ namespace WebApplication4
                 string query = "SP_Usuario_Login";
                 SqlCommand command = new SqlCommand(query, connection);
                 command.CommandType = System.Data.CommandType.StoredProcedure;
+           
                 command.Parameters.AddWithValue("@usuario", txtUsername.Text);
                 command.Parameters.AddWithValue("@password", txtPassword.Text);
-                int esValido = (Int32)command.ExecuteScalar();
 
-                if (esValido == 1)
+                command.Parameters.Add("@id", System.Data.SqlDbType.Int);
+                command.Parameters["@id"].Direction = System.Data.ParameterDirection.Output;
+
+                command.Parameters.Add("@Admin", System.Data.SqlDbType.Int);
+                command.Parameters["@Admin"].Direction = System.Data.ParameterDirection.Output;
+                command.ExecuteNonQuery();
+                
+
+                if ((int)command.Parameters["@id"].Value != 0)
                 {
-                    Session["UserID"] = 0;
-                    Session["IDpropiedad"] = 4;
-                    Session["UserName"] = "Jaa";
-                    Response.Redirect("Contact.aspx");
+                    Session["UserID"] = (int)command.Parameters["@id"].Value;
+                    Session["Admin"] = (int)command.Parameters["@admin"].Value;
+                    Session["UserName"] = txtUsername.Text;
+                  
+                    //Response.Redirect("Contact.aspx");
                 }
                 else
-                    Response.Write("<script>alert('Error, datos no válidos');</script>");
-                    connection.Close();
+                Response.Write("<script>alert('Error, datos no válidos');</script>");
+                txtUsername.Text = string.Empty;
+                connection.Close();
             }
         }
     }
