@@ -37,8 +37,8 @@ namespace WebApplication4
                     Response.Redirect("Contact.aspx");
                 }
                 else
-                    errorxd.Text="*Error, datos no coincidentes";
-                connection.Close();
+                    Response.Write("<script>alert('Error, datos no válidos');</script>");
+                    connection.Close();
             }
         }
     }

@@ -1,20 +1,24 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication4._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#"  AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication4._Default" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+  <!DOCTYPE html>
 
-    <div class="jumbotron">
-        <h1>Login</h1>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Login</title>
+  <link rel="stylesheet"  href="login.css" type="text/css" />
+</head>
+    <body>
+        <div class="loginbox">
+        <h1>Bienvenido</h1>
+        <form runat="server">
         <asp:Label runat="server" ID="errorxd" ForeColor="Red"></asp:Label>
-        <asp:Table ID="Table1" runat="server" CellSpacing="10">
-            <asp:TableRow>
-                <asp:TableCell><asp:Label ID="Label1" runat="server" Text="Usuario:" Width="100"></asp:Label></asp:TableCell>
-                <asp:TableCell><asp:TextBox ID="txtUsername" runat="server"></asp:TextBox></asp:TableCell>
-            </asp:TableRow>
-            <asp:TableRow>
-                <asp:TableCell><asp:Label runat="server" Text="Contraseña:" Width="100" /></asp:TableCell>
-                <asp:TableCell>
-                    <asp:TextBox ID="txtPassword" TextMode="Password" runat="server"></asp:TextBox></asp:TableCell>
-            </asp:TableRow></asp:Table>
-        <p><asp:Button runat="server" Text="Ingresar &raquo;" OnClick="Unnamed_Click" /></p>
-
-    </div></asp:Content>
+        <asp:Label ID="Label1" runat="server" CssClass="lbluser" placeholder="Ingrese el usuario" Text="Usuario:" Width="100px"></asp:Label>
+        <asp:TextBox ID="txtUsername" CssClass="txtuser" runat="server"></asp:TextBox>
+        <asp:Label ID="txtpass" runat="server" CssClass="lbluser" Text="Contraseña:" Width="100" />
+        <asp:TextBox ID="txtPassword" TextMode="Password" placeholder="********" CssClass="txtpass" runat="server"></asp:TextBox>
+        <asp:Button runat="server" Text="Ingresar aqui" CssClass="btningresar" OnClick="Unnamed_Click" />
+        </form>
+        </div>
+    </body>
+</html>
