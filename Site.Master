@@ -47,7 +47,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/" style="width: 405px">Primera tarea programada - Bases de datos 1 </a>&nbsp;</div>
+                    <a class="navbar-brand" runat="server" href="~/" style="width: 405px">Segunda tarea programada - Bases de datos 1 </a>&nbsp;</div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                     </ul>

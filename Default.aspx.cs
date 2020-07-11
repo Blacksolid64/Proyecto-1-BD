@@ -35,15 +35,22 @@ namespace WebApplication4
                 command.Parameters.Add("@Admin", System.Data.SqlDbType.Int);
                 command.Parameters["@Admin"].Direction = System.Data.ParameterDirection.Output;
                 command.ExecuteNonQuery();
-                
 
                 if ((int)command.Parameters["@id"].Value != 0)
                 {
-                    Session["UserID"] = (int)command.Parameters["@id"].Value;
-                    Session["Admin"] = (int)command.Parameters["@admin"].Value;
-                    Session["UserName"] = txtUsername.Text;
-                  
-                    //Response.Redirect("Contact.aspx");
+                    if ((int)command.Parameters["@Admin"].Value == 1)
+                    {
+                        Session["UserID"] = 0;
+                        Session["AdminID"] = (int)command.Parameters["@id"].Value;
+                        Session["Admin"] = (int)command.Parameters["@admin"].Value;
+                        Session["UserName"] = txtUsername.Text;
+                        Response.Redirect("Contact.aspx");
+                    }
+                    else
+                        Session["UserID"] = (int)command.Parameters["@id"].Value;
+                        Session["Admin"] = (int)command.Parameters["@admin"].Value;
+                        Session["UserName"] = txtUsername.Text;
+                        Response.Redirect("U_Propiedades.aspx");
                 }
                 else
                 Response.Write("<script>alert('Error, datos no válidos');</script>");

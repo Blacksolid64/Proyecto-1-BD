@@ -5,7 +5,7 @@
     <div class="jumbotron">
         <h1>Búsqueda por Propietario</h1>
         <p>
-        <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
+            <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
                 <Columns>
                     <asp:BoundField DataField="NumFinca" HeaderText="Numero de Finca" SortExpression="NumFinca" />
                     <asp:BoundField DataField="valor" HeaderText="Valor" SortExpression="valor" />
@@ -34,6 +34,7 @@
             <asp:Button ID="Consultar" runat="server" BorderStyle="Inset" Text="Consultar" OnClick="Consultar_Click" />
         </p>
 
-        <asp:Button ID="Button1" runat="server" Text="Volver" OnClientClick="volver" Width="60px" Height="26px" OnClick="Button1_Click"  />
+        <asp:Button ID="Button1" runat="server" Text="Volver" OnClientClick="volver" Width="60px" Height="26px" OnClick="Button1_Click" />
 
-</div></asp:Content>
+    </div>
+</asp:Content>

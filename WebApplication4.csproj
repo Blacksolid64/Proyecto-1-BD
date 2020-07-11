@@ -106,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Bitácora.aspx" />
     <Content Include="BusquedaPorPropiedadDeUsuario.aspx" />
     <Content Include="BusquedaPorUsuarioDePropiedad.aspx" />
     <Content Include="BusquedaPorPropiedad.aspx" />
@@ -129,17 +130,18 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="ConceptoDeCobroVsPropiedades.aspx" />
     <Content Include="login.css" />
+    <Content Include="main.css" />
     <Content Include="UsuariosVsPropiedades.aspx" />
     <Content Include="PropietariosVsPropiedades.aspx" />
     <Content Include="Usuarios.aspx" />
     <Content Include="Propiedades.aspx" />
     <Content Include="BusquedaPorPropietario.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="U_Propiedades.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -151,6 +153,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Bitácora.aspx.cs">
+      <DependentUpon>Bitácora.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bitácora.aspx.designer.cs">
+      <DependentUpon>Bitácora.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BusquedaPorPropiedadDeUsuario.aspx.cs">
       <DependentUpon>BusquedaPorPropiedadDeUsuario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -204,6 +213,13 @@
     <Compile Include="ConceptoDeCobroVsPropiedades.aspx.designer.cs">
       <DependentUpon>ConceptoDeCobroVsPropiedades.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Usuarios.Master.cs">
+      <DependentUpon>Usuarios.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuarios.Master.designer.cs">
+      <DependentUpon>Usuarios.Master</DependentUpon>
+    </Compile>
     <Compile Include="UsuariosVsPropiedades.aspx.cs">
       <DependentUpon>UsuariosVsPropiedades.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -239,6 +255,13 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="U_Propiedades.aspx.cs">
+      <DependentUpon>U_Propiedades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="U_Propiedades.aspx.designer.cs">
+      <DependentUpon>U_Propiedades.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -253,19 +276,13 @@
     <Compile Include="Propiedades.aspx.designer.cs">
       <DependentUpon>Propiedades.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Usuarios.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

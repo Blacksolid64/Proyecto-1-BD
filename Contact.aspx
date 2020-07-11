@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class = "jumbotron">
-    <h2>Bienvenido a los propietarios</h2>
+    <h2>Bienvenido Administrador</h2>
    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:masterConnectionString %>" SelectCommand="SP_Propietarios_Select" DeleteCommand="SP_Propietarios_Delete" InsertCommand="SP_Propietarios_Insert" UpdateCommand="SP_Propietarios_Update" CancelSelectOnNullParameter="False" DeleteCommandType="StoredProcedure" InsertCommandType="StoredProcedure" SelectCommandType="StoredProcedure" UpdateCommandType="StoredProcedure">
             <DeleteParameters>
                 <asp:Parameter Name="Id" />
@@ -12,8 +12,11 @@
                 <asp:controlParameter Name="nombre" ControlID="PdocId" Type="String" />
                 <asp:ControlParameter Name="Identificacion" ControlID="PIdentificacion" Type="String" />
             </InsertParameters>
+            <SelectParameters>
+                <asp:SessionParameter DefaultValue="0" Name="Id" SessionField="AdminID" Type="Int32" />
+                <asp:SessionParameter DefaultValue="0" Name="EsAdmin" SessionField="Admin" Type="Int32" />
+            </SelectParameters>
             <UpdateParameters>
-                <asp:Parameter Name="ReturnValue" Direction="ReturnValue" />
                 <asp:Parameter Name="Id" Type="Int32" />
                 <asp:Parameter Name="ValorDocId" Type="Int32" />
                 <asp:Parameter Name="nombre" Type="String" />
@@ -24,12 +27,12 @@
         <td style="width: 150px">
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" HorizontalAlign="Center" DataKeyNames="Id" style="margin-left: 0px" Height="262px" Width="488px">
             <Columns>
+                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
                 <asp:BoundField DataField="Id" HeaderText="Id" InsertVisible="False" Visible="false" ReadOnly="True" SortExpression="Id" />
                 <asp:BoundField DataField="Nombre" HeaderText="Nombre" SortExpression="Nombre" />
                 <asp:BoundField DataField="ValorDocId" HeaderText="ValorDocId" SortExpression="ValorDocId" />
-                <asp:CheckBoxField DataField="Activo" HeaderText="Activo" SortExpression="Activo" Visible="false"/>
+                <asp:CheckBoxField DataField="Activo" HeaderText="Activo" Visible="false" SortExpression="Activo"/>
                 <asp:BoundField DataField="Identificacion" HeaderText="Identificacion" SortExpression="Identificacion" />
-                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
             </Columns>
         </asp:GridView>
         </td>
