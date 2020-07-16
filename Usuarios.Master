@@ -20,7 +20,7 @@
             <div class="menu">
                 <ul>
                     <li class="navigation_first_item"><a href="U_propiedades.aspx">Categoria</a></li>
-                    <li><a href="U_propiedades.aspx">Recibos Pendientes</a></li>
+                    <li><a href="U_RecibosPendientes.aspx">Recibos Pendientes</a></li>
                     <li><a href="U_propiedades.aspx">Recibos Pagados</a></li>
                     <li><a href="U_propiedades.aspx">Comprobantes de pago</a></li>
                     <li><a href="Default.aspx">Salir</a></li>

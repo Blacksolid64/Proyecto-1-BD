@@ -6,16 +6,17 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="contentBody" runat="server">
     <div style="margin-left: auto; margin-right: auto; text-align: center;">
      <h1>Mis Propiedades</h1>
-        <asp:GridView ID="GridView1" HorizontalAlign="Center" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" CellPadding="4" ForeColor="#333333" GridLines="None">
+        <asp:GridView ID="GridView1" HorizontalAlign="Center" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" width="600px" CellPadding="4" ForeColor="#333333" GridLines="None" DataKeyNames="Id" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
+                <asp:BoundField DataField="Id" Visible="true" HeaderText="Id" InsertVisible="False" ReadOnly="True" SortExpression="Id" />
                 <asp:BoundField DataField="NumFinca" HeaderText="NumFinca" SortExpression="NumFinca" />
                 <asp:BoundField DataField="valor" HeaderText="valor" SortExpression="valor" />
-                <asp:BoundField DataField="direccion" HeaderText="Direccion" SortExpression="direccion" />
                 <asp:BoundField DataField="M3Acumulados" HeaderText="M3Acumulados" SortExpression="M3Acumulados" />
+                <asp:BoundField DataField="direccion" HeaderText="direccion" SortExpression="direccion" />
                 <asp:BoundField DataField="M3AcumuladosUR" HeaderText="M3AcumuladosUR" SortExpression="M3AcumuladosUR" />
                 <asp:CommandField ShowSelectButton="True" />
-                <asp:BoundField DataField="idusuario" HeaderText="idusuario" Visible="false" SortExpression="idusuario" />
+                <asp:BoundField DataField="idusuario" Visible="false" HeaderText="idusuario" SortExpression="idusuario" />
             </Columns>
             <EditRowStyle BackColor="#7C6F57" />
             <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />

@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>Búsqueda por Propiedad</h1>
+        <h1>Búsqueda de propietario por numero de finca</h1>
         <p>
             <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
                 <Columns>
@@ -20,9 +20,9 @@
                 <SortedDescendingCellStyle BackColor="#CAC9C9" />
                 <SortedDescendingHeaderStyle BackColor="#00547E" />
             </asp:GridView>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:masterConnectionString %>" SelectCommand="SP_C2" SelectCommandType="StoredProcedure">
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:masterConnectionString %>" SelectCommand="SP_C2" SelectCommandType="StoredProcedure" OnSelected="SqlDataSource1_Selected" OnSelecting="SqlDataSource1_Selecting">
                 <SelectParameters>
-                    <asp:ControlParameter ControlID="Busqueda" Name="PNumfinca" PropertyName="Text" Type="Int32" />
+                    <asp:ControlParameter ControlID="Busqueda" Name="PNumfinca" PropertyName="Text" />
                 </SelectParameters>
             </asp:SqlDataSource>
         </p>

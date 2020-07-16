@@ -145,6 +145,7 @@
     <Content Include="BusquedaPorPropietario.aspx" />
     <Content Include="Site.Master" />
     <Content Include="U_Propiedades.aspx" />
+    <Content Include="U_RecibosPendientes.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -268,6 +269,13 @@
     </Compile>
     <Compile Include="U_Propiedades.aspx.designer.cs">
       <DependentUpon>U_Propiedades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="U_RecibosPendientes.aspx.cs">
+      <DependentUpon>U_RecibosPendientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="U_RecibosPendientes.aspx.designer.cs">
+      <DependentUpon>U_RecibosPendientes.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

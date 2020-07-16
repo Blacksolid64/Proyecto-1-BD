@@ -74,5 +74,6 @@ namespace WebApplication4
         {
             Response.Redirect("Bitácora.aspx");
         }
+
     }
 }

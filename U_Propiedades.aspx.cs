@@ -13,5 +13,12 @@ namespace WebApplication4
         {
 
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int selectedRow = GridView1.SelectedIndex;
+            Session["IdPropiedadUsuario"] = GridView1.Rows[selectedRow].Cells[0].Text;
+            Response.Redirect("U_RecibosPendientes");
+        }
     }
 }

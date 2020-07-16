@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div style="margin-left: auto; margin-right: auto; text-align: center;">
         <h1>Bitácora de movimientos</h1>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" HorizontalAlign="Center" DataKeyNames="Id" DataSourceID="SqlDataSource2">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" HorizontalAlign="Center" DataKeyNames="Id" DataSourceID="SqlDataSource2" AllowPaging="True">
             <Columns>
                 <asp:BoundField DataField="Id" HeaderText="Id" InsertVisible="False" ReadOnly="True" SortExpression="Id" />
                 <asp:BoundField DataField="IdEntityType" HeaderText="IdEntityType" SortExpression="IdEntityType" />
