@@ -69,5 +69,10 @@ namespace WebApplication4
         {
             Response.Redirect("ConceptoDeCobroVsPropiedades.aspx");
         }
+
+        protected void Button10_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Bitácora.aspx");
+        }
     }
 }

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Net;
+using System.Net.Sockets;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -22,18 +24,33 @@ namespace WebApplication4
             {
                 SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["masterConnectionString"].ConnectionString);
                 connection.Open();
+                string IP = GetLocalIPAddress();
                 string query = "SP_Usuario_Login";
+                string query2 = "Set_User_And_IP";
+                string query3 = "Reset_User_And_IP";
                 SqlCommand command = new SqlCommand(query, connection);
+                SqlCommand command2 = new SqlCommand(query2, connection);
+                SqlCommand command3 = new SqlCommand(query3, connection);
+
                 command.CommandType = System.Data.CommandType.StoredProcedure;
-           
+                command2.CommandType = System.Data.CommandType.StoredProcedure;
+                command3.CommandType = System.Data.CommandType.StoredProcedure;
+
+                command3.ExecuteNonQuery();
+
                 command.Parameters.AddWithValue("@usuario", txtUsername.Text);
                 command.Parameters.AddWithValue("@password", txtPassword.Text);
+
+                command2.Parameters.AddWithValue("@PNombre", txtUsername.Text);
+                command2.Parameters.AddWithValue("@PIP",IP);
+
 
                 command.Parameters.Add("@id", System.Data.SqlDbType.Int);
                 command.Parameters["@id"].Direction = System.Data.ParameterDirection.Output;
 
                 command.Parameters.Add("@Admin", System.Data.SqlDbType.Int);
                 command.Parameters["@Admin"].Direction = System.Data.ParameterDirection.Output;
+
                 command.ExecuteNonQuery();
 
                 if ((int)command.Parameters["@id"].Value != 0)
@@ -44,6 +61,7 @@ namespace WebApplication4
                         Session["AdminID"] = (int)command.Parameters["@id"].Value;
                         Session["Admin"] = (int)command.Parameters["@admin"].Value;
                         Session["UserName"] = txtUsername.Text;
+                        command2.ExecuteNonQuery();
                         Response.Redirect("Contact.aspx");
                     }
                     else
@@ -57,6 +75,20 @@ namespace WebApplication4
                 txtUsername.Text = string.Empty;
                 connection.Close();
             }
+
+        }
+
+        public static string GetLocalIPAddress()
+        {
+            var host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (var ip in host.AddressList)
+            {
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
+                {
+                    return ip.ToString();
+                }
+            }
+            throw new Exception("No network adapters with an IPv4 address in the system!");
         }
     }
 }

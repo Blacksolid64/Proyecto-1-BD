@@ -5,13 +5,13 @@
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" HorizontalAlign="Center" DataKeyNames="Id" DataSourceID="SqlDataSource2">
             <Columns>
                 <asp:BoundField DataField="Id" HeaderText="Id" InsertVisible="False" ReadOnly="True" SortExpression="Id" />
-                <asp:BoundField DataField="EntityId" HeaderText="EntityId" SortExpression="EntityId" />
                 <asp:BoundField DataField="IdEntityType" HeaderText="IdEntityType" SortExpression="IdEntityType" />
+                <asp:BoundField DataField="EntityId" HeaderText="EntityId" SortExpression="EntityId" />
                 <asp:BoundField DataField="JsonAntes" HeaderText="JsonAntes" SortExpression="JsonAntes" />
                 <asp:BoundField DataField="JsonDespues" HeaderText="JsonDespues" SortExpression="JsonDespues" />
                 <asp:BoundField DataField="InsertedAt" HeaderText="InsertedAt" SortExpression="InsertedAt" />
-                <asp:BoundField DataField="InsertedBy" HeaderText="InsertedBy" SortExpression="InsertedBy" />
                 <asp:BoundField DataField="InsertedIn" HeaderText="InsertedIn" SortExpression="InsertedIn" />
+                <asp:BoundField DataField="InsertedBy" HeaderText="InsertedBy" SortExpression="InsertedBy" />
             </Columns>
             </asp:GridView>
         <table style="margin-left:auto;margin-right:auto;"  cellpadding="0" cellspacing="0" width="450" border="0">
@@ -25,11 +25,11 @@
             </tr>
             <tr>
                 <td>Fecha Inicio:</td>
-                <td><asp:TextBox TextMode="Date"  ID="FechaInicio" runat="server" Width="160px"></asp:TextBox></td>
+                <td><asp:TextBox   ID="FechaInicio" runat="server" Width="160px"></asp:TextBox></td>
             </tr>
             <tr>
                 <td>Fecha Fin:</td> 
-                <td><asp:TextBox TextMode="Date" ID="FechaFin" Width="160px" runat="server"></asp:TextBox></td>
+                <td><asp:TextBox  ID="FechaFin" Width="160px" runat="server"></asp:TextBox></td>
             </tr>
             <tr>
                 <td> <asp:Button ID="BtnBusqueda" style="margin:1px" runat="server" Text="Buscar" OnClick="BtnBusqueda_Click" /> </td>
@@ -39,8 +39,8 @@
         </table>
         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:masterConnectionString %>" SelectCommand="SP_Bitacora_Date_Select" SelectCommandType="StoredProcedure">
             <SelectParameters>
-                <asp:ControlParameter ControlID="FechaInicio" Name="FechaInicio" PropertyName="Text" Type="DateTime" />
-                <asp:ControlParameter ControlID="FechaFin" Name="FechaFin" PropertyName="Text" Type="DateTime" />
+                <asp:ControlParameter ControlID="FechaInicio" Name="Start" PropertyName="Text" Type="String" />
+                <asp:ControlParameter ControlID="FechaFin" Name="Finish" PropertyName="Text" Type="String" />
                 <asp:ControlParameter ControlID="IdEntidad" Name="IdEntidad" PropertyName="SelectedValue" Type="Int32" />
             </SelectParameters>
         </asp:SqlDataSource>

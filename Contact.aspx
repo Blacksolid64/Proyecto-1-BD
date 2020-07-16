@@ -85,6 +85,7 @@
         <tr>
      <td style ="width: 150px">
         <asp:Button ID="Button7" runat="server" OnClick="Button7_Click" Text="Ver PropietariosVsPropiedades" Width="285px" />
+         <asp:Button ID="Button10" runat="server" OnClick="Button10_Click" Text="Button" />
     </td>
    <td style ="width: 150px">
         <asp:Button ID="Button8" runat="server" OnClick="Button8_Click" Text="Ver UsuarioVsPropiedad" Width="342px" />

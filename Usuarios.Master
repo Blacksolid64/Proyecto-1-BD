@@ -23,6 +23,7 @@
                     <li><a href="U_propiedades.aspx">Recibos Pendientes</a></li>
                     <li><a href="U_propiedades.aspx">Recibos Pagados</a></li>
                     <li><a href="U_propiedades.aspx">Comprobantes de pago</a></li>
+                    <li><a href="Default.aspx">Salir</a></li>
                 </ul>
             </div>
             <div class="clear"></div>

@@ -9,9 +9,8 @@
         </DeleteParameters>
         <InsertParameters>
             <asp:controlParameter Name="NumFinca" ControlID="Pnumfinca" Type="Int32" />
-            <asp:controlParameter Name="valor" ControlID="Pvalor" Type="Decimal" />
+            <asp:controlParameter Name="valor" ControlID="Pvalor" Type="Int32" />
             <asp:controlParameter Name="direccion" ControlID="Pdireccion" Type="String" />
-            
         </InsertParameters>
         <UpdateParameters>
             <asp:Parameter Name="Id" Type="Int32" />
