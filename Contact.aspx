@@ -53,41 +53,43 @@
         <table style="margin-right: auto;" cellpadding="0" cellspacing="0" border="0">
             <tr>
                 <td style="width: 150px">
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Lista de Propiedades"/>
+                    <asp:Button ID="Button1" runat="server" Width="300px" OnClick="Button1_Click" Text="Lista de Propiedades"/>
                 </td>
                 <td style="width: 150px">
-                    <asp:Button ID="Button6" runat="server" Text="Lista de Usuarios" OnClick="Button6_Click" />
+                    <asp:Button ID="Button6" runat="server" Width="300px" Text="Lista de Usuarios" OnClick="Button6_Click" />
                 </td>
 
                 <td style="width: 150px">
-                    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Propiedades de un Propietario" />
+                    <asp:Button ID="Button2" runat="server" Width="300px" OnClick="Button2_Click" Text="Propiedades de un Propietario" />
                 </td>
             </tr>
             <tr>
                 <td style="width: 150px">
-                    <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Propiedades de un usuario"/>
+                    <asp:Button ID="Button4" Width="300px" runat="server" OnClick="Button4_Click" Text="Propiedades de un usuario"/>
                 </td>
 
                 <td style="width: 150px">
-                    <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Usuarios asociados a propiedad"/>
+                    <asp:Button ID="Button5" Width="300px" runat="server" OnClick="Button5_Click" Text="Usuarios asociados a propiedad"/>
                 </td>
 
                 <td style="width: 150px">
-                    <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Propietarios de un Propiedad"/>
+                    <asp:Button ID="Button3" Width="300px" runat="server" OnClick="Button3_Click" Text="Propietarios de un Propiedad"/>
                 </td>
             </tr>
             <tr>
                 <td style="width: 150px">
-                    <asp:Button ID="Button7" runat="server" OnClick="Button7_Click" Text="Ver PropietariosVsPropiedades"/>
+                    <asp:Button ID="Button7" Width="300px" runat="server" OnClick="Button7_Click" Text="Ver PropietariosVsPropiedades"/>
                 </td>
                 <td style="width: 150px">
-                    <asp:Button ID="Button8" runat="server" OnClick="Button8_Click" Text="Ver UsuarioVsPropiedad"/>
+                    <asp:Button ID="Button8" Width="300px" runat="server" OnClick="Button8_Click" Text="Ver UsuarioVsPropiedad"/>
                 </td>
                 <td style="width: 150px">
-                    <asp:Button ID="Button9" runat="server" OnClick="Button9_Click" Text="Ver ConceptodecobroVsPropiedad"/>
+                    <asp:Button ID="Button9" Width="300px" runat="server" OnClick="Button9_Click" Text="Ver ConceptodecobroVsPropiedad"/>
                 </td>
             </tr>
-            <tr><td> <asp:Button ID="Button10" runat="server" OnClick="Button10_Click" Text="Bitacora" /></td></tr>
+            <tr><td> <asp:Button ID="Button10" Width="300px" runat="server" OnClick="Button10_Click" Text="Bitacora" /></td>
+                <td>  <asp:Button ID="Button11" Width="300px" runat="server" OnClick="Button11_Click" Text="Propietarios juridicos" /> </td>
+            </tr>
         </table>
     </div>
 </asp:Content>

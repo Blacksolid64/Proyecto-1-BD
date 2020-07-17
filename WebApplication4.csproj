@@ -138,6 +138,7 @@
     <Content Include="ConceptoDeCobroVsPropiedades.aspx" />
     <Content Include="login.css" />
     <Content Include="main.css" />
+    <Content Include="PropietariosJuridicos.aspx" />
     <Content Include="UsuariosVsPropiedades.aspx" />
     <Content Include="PropietariosVsPropiedades.aspx" />
     <Content Include="Usuarios.aspx" />
@@ -220,6 +221,13 @@
     </Compile>
     <Compile Include="ConceptoDeCobroVsPropiedades.aspx.designer.cs">
       <DependentUpon>ConceptoDeCobroVsPropiedades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PropietariosJuridicos.aspx.cs">
+      <DependentUpon>PropietariosJuridicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PropietariosJuridicos.aspx.designer.cs">
+      <DependentUpon>PropietariosJuridicos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Usuarios.Master.cs">
       <DependentUpon>Usuarios.Master</DependentUpon>

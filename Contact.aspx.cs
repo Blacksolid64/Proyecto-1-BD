@@ -75,5 +75,9 @@ namespace WebApplication4
             Response.Redirect("Bitácora.aspx");
         }
 
+        protected void Button11_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("PropietariosJuridicos.aspx");
+        }
     }
 }
